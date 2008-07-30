@@ -1,0 +1,90 @@
+NIV1.13WF6.06_hybrid_international_ALPHA Version:08.04.25
+
+----------------------------------------------------------
+ENGLISH (Englisch)
+----------------------------------------------------------
+
+Installation:
+1.) Make a copy of your existing "Data-1.13" folder in your JA2 root directory and rename it to "Data-WildFire6.06".
+2.) Make a folder where you would like to download the files. Use TortoiseSVN "SVN Checkout..." and browse to
+	https://81.169.133.124/source/ja2/branches/Wanne/1.13 Wildfire Hybrid 6.0
+3.) Download all the files with TortoiseSVN to the folder.
+4.) After download (update from TortoiseSVN) copy the content to your JA2 root directory. Overwrite any existing files
+5.) Start new game
+
+This is the current revision history of the NIV1.13WF6.06_hybrid_international, status: alpha
+
+Content:
+- Loading- and options screens from Wildfire 6.06 for all 3 resolutions (640x480, 800x600, 1024x768)
+- ALL maps and alternative maps from Wildfire 6.06. Some of them will never be used because of the internal behaviour of Ja2 v1.13 EXE.
+- Added item crate for the Drassen aiport map which is used for Bobby Ray delivery. This crate is located in the north area of the map.
+- Removed alarm triggers fom drug-cartel maps near San Mona. (There were someproblems with enemy AI in those maps).
+- Replaced "problematic" items in many maps with "meaningful" items.
+- Replaced Ira's face with alternative face from Wildfire 6.06.
+- Reworked XML files (AltSectos.xml, Samsites.xml).
+- New/replaced Arulco overview map, MilitiaMap.sti, ArmyComposistion, GarrisionGroups.xml
+- Checked San Mona quests and scripts for errors with v1.13, reworked and tested. Spike now works leadeship around 40 +/- 5. Kyle is still in progress.
+- Replaced laptop style with laptop from Wildfire 6.06
+- Some smaller changes
+
+ToDo:
+- Test and rework most of the maps and NPCData in town maps, mine maps, underground maps, ammo maps, ...
+- a lot of work ...
+
+Note: 
+If you find any bugs/erros regarding maps, NPC's, items, ... please post it in the Bears Pit Thread:
+http://www.ja-galaxy-forum.com/board/ubbthreads.php?ubb=showflat&Number=164750
+
+Future changes on maps and/or NPCData will require a new game.
+
+
+Greetings, Jax
+PS: Thx to Scorpion of NPCData-Support
+
+
+
+----------------------------------------------------------
+GERMAN (Deutsch)
+----------------------------------------------------------
+
+Installation:
+1.) Vorhandenen "Data-1.13" Ordner im JA2 Hauptordner duplizieren und diesen in "Data-WildFire6.06" umbenennen.
+2.) Erstelle einen Ordner (egal wo) für den Download der Dateien vom SVN Server. Verwende das Programm TortoiseSVN "SVN Checkout..." und gib die folgende URL ein
+	https://81.169.133.124/source/ja2/branches/Wanne/1.13 Wildfire Hybrid 6.0
+3.) Lade alle Dateien in diesen Ordner mit TortoiseSVN herunter.
+4.) Nach dem Download kopiere alle Dateien (.svn Dateien müssen nicht mitkopiert werden) in den JA2 Hauptordner. Vorhandene Dateien überschreiben lassen.
+5.) Ein neues Spiel starten
+
+
+Dies ist der aktuell veröffentlichte Stand der Arbeit am NIV1.13WF6.06_hybrid_international, Status: Alpha
+
+Inhalt:
+- Lade- und Optionsbildschirme aus WF6.06 für 640x480, 800x600 und 1024x768 eingebaut.
+- ALLE Maps und alternativen Maps aus WF6.06 enthalten. Einige werden auf Grund der Ja2 V1.13 EXE'n aber nicht benutzt.
+- Drassen Flughafen Maps um eine Lieferkiste für Bobby Ray erweitert, steht im Norden der Map.
+- Drogenkartell-Maps um San Mona von AlarmTriggern bereinigt. (Probleme mit Kämpfen und der KI in den Maps.)
+- In vielen maps Problemitems bei NIV-Spiel gegen sinnvolle Items ausgetauscht.
+- Alternatives Face IRA eingebaut.
+- XML Dateien betreffend der Map-Änderungen für 1.13 angepasst (AltSektors.xml + Samsites.xml)
+- Arulco-Map, MilitiaMaps.sti, ArmyComposition.xml + GarrisionGroups.xml enthalten wie bereits vorher schon veröffentlicht.
+- Die meisten San Mona Quests und Sripts geprüft, überarbeitet und getestet. Spike funktioniert mit FHR um 40 +/- 5. Kyle noch in Arbeit.
+- Laptoplook aus WF6 eingebaut.
+- Diverse andere kleinen Änderungen eingebaut.
+
+ToDo:
+- Testen und bearbeiten der meisten Maps und NPCData's in Stadtmaps, Minenmaps, der Untergrundmaps, Munitionslagermaps etc.
+- viel Arbeit...
+
+Hinweis: 
+Bitte an alle User, gefundene Fehler betreffend Maps, NPC's, Items bei NIV Nutzung, ... bitte im BP-Thread melden.
+http://www.ja-galaxy-forum.com/board/ubbthreads.php?ubb=showflat&Number=164750
+
+Künftige Änderungen an Maps und/oder NPCData's werden den Start eines neuen Spiels erforden um zugreifen.
+
+
+Mfg, Jax 
+
+PS: Thx to Scorpion for NPCData-Support
+
+
+
