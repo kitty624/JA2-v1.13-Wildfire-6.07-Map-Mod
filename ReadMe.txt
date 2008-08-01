@@ -13,6 +13,7 @@ Installation:
 
 
 You can also use this MOD together with the JA2 1.13 Wildfire Merc MOD, to get the best Wildfire Feeling!
+To use these 2 MODs together, first install this Maps MOD and then install the Merc MOD.
 
 Thanks to Jax(Jelinobas) and Smeagol for providing this MOD!
 
