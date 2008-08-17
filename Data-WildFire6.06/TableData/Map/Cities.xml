@@ -82,7 +82,7 @@ Changes do not require starting of a new game.
 			<townMilitiaAllowed>1</townMilitiaAllowed>
 			<baseSector>
 				<x>1</x>
-				<y>7</y>
+				<y>6</y>
 			</baseSector>
 			<townPoint>
 				<x>15</x>
