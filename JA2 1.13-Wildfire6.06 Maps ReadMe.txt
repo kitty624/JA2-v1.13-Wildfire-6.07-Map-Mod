@@ -1,20 +1,6 @@
 This version contains the following Wildfire 6.06 content for the English Version of Jagged Alliance 2:
 - WF maps
 
-Installation:
-0.) Install Jagged Alliance 2 (English Version)
-1.) Install the Jagged Alliance 2 1.13 MOD
-2.) Make a copy of your existing "Data-1.13" folder in your JA2 root directory and rename it to "Data-WildFire6.06".
-3.) Make a folder where you would like to download the files of this WF MOD. Use TortoiseSVN "SVN Checkout..." and browse to
-	https://81.169.133.124/source/ja2/branches/Wanne/JA2 1.13 Wildfire 6.06 - Maps MOD
-4.) Download all the files with TortoiseSVN to the folder.
-5.) After download (update from TortoiseSVN) copy the content (Data-Wildfire6.06 folder) to your JA2 root directory. Overwrite any existing files
-6.) Start new game
-
-
-You can also use this MOD together with the JA2 1.13 Wildfire Merc MOD, to get the best Wildfire Feeling!
-To use these 2 MODs together, first install this Maps MOD and then install the Merc MOD.
-
 Thanks to Jax(Jelinobas) and Smeagol for providing this MOD!
 
 
