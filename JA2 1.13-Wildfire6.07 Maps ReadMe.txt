@@ -1,0 +1,40 @@
+This version contains the following Wildfire 6.07 content for the English Version of Jagged Alliance 2:
+- WF maps
+
+http://www.ja-galaxy-forum.com/board/ubbthreads.php/topics/324229/Re_install_and_run_wildfire_6_.html#Post324229
+
+
+Thanks to Jax(Jelinobas) and Smeagol for providing this MOD!
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q: Where should I report any bugs? Do you even want feedback?
+A: Do we want feedback??? yeah, of course we want feedback. We're not doing all this work for hard money, 
+but for fame and glory. We appreciate any kind of feedback. 
+
+If you don't like something, tell us. We might change it. 
+If you think something is brilliant, tell us. We like to be flattered.
+
+Feel free to discus the mod in one of the following forums we regularly check:
+
+http://www.ja-galaxy-forum.com/board/ubbthreads.php/topics/324215/Re_install_and_run_wildfire_6_.html#Post324215
+
+We are glad to hear about any strange findings and like to hear your feedback. 
+
+Okay, that's it... We hope you all enjoy our mod. Happy Hunting. :-)
+
+Greetings
+Jax(Jelinobas) and Smeagol
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Installation:
+0.) Install Jagged Alliance 2
+1.) Install Jagged Alliance 2 1.13 MOD
+2.) Create a copy of your "Data-1.13" Ordners in JA2 main directory and rename it to "Data-WildFire6.07".
+3.) Now copy the Data-Wildfire6.07 folder of this mod to your JA2 main directory. Overwrite when asked.
+4.) Start a new game.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
