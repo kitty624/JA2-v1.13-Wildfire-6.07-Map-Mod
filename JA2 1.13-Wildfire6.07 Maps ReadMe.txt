@@ -3,6 +3,17 @@ This version contains the following Wildfire 6.07 content for the English Versio
 
 http://www.ja-galaxy-forum.com/board/ubbthreads.php/topics/324229/Re_install_and_run_wildfire_6_.html#Post324229
 
+Jagged Alliance 1.13 stable 4870 will not work with the WF6.07 maps because WF6.07 contains data which is not recognized by the old JA2.exe.
+You will need to use the latest SCI.
+
+Downloads for latest SCI (Single Click Installer):
+http://www.bears-pit.com/board/ubbthread...html#Post311288
+
+Download for Wildfire Maps Mod 6.07 (use SVN client like Tortoise SVN):
+https://ja2svn.no-ip.org/source/ja2/branches/Wanne/JA2 1.13 Wildfire 6.06 - Maps MOD
+
+The "Data-WildFire6.06" folder on this SVN may be removed in the future. It contains older outdated maps and other files
+
 
 Thanks to Jax(Jelinobas) and Smeagol for providing this MOD!
 
@@ -31,10 +42,11 @@ Jax(Jelinobas) and Smeagol
 
 
 Installation:
-0.) Install Jagged Alliance 2
-1.) Install Jagged Alliance 2 1.13 MOD
-2.) Create a copy of your "Data-1.13" Ordners in JA2 main directory and rename it to "Data-WildFire6.07".
-3.) Now copy the Data-Wildfire6.07 folder of this mod to your JA2 main directory. Overwrite when asked.
-4.) Start a new game.
+1. Install Jagged Alliance 2.
+2. Download latest SCI and copy its content to JA2 game directory. Overwrite when asked.
+3. Make a copy of the "Data-1.13" folder and name it "Data-WildFire6.07".
+4. Download WF maps 6.07 mod from SVN and copy its content to your JA2 game directory (except for the Data-WildFire6.06 folder which is not needed).
+5. Modify Ini settings if you like.
+6. Play the game.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
