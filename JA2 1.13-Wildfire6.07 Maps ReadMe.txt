@@ -44,9 +44,8 @@ Jax(Jelinobas) and Smeagol
 Installation:
 1. Install Jagged Alliance 2.
 2. Download latest SCI and copy its content to JA2 game directory. Overwrite when asked.
-3. Make a copy of the "Data-1.13" folder and name it "Data-WildFire6.07".
-4. Download WF maps 6.07 mod from SVN and copy its content to your JA2 game directory (except for the Data-WildFire6.06 folder which is not needed).
-5. Modify Ini settings if you like.
-6. Play the game.
+3. Download WF maps 6.07 mod from SVN and copy its content to your JA2 game directory (except for the Data-WildFire6.06 folder which is not needed).
+4. Modify Ini settings if you like.
+5. Play the game.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
