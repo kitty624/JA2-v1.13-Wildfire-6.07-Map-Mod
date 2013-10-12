@@ -1146,13 +1146,13 @@
 		<szFacilityName>Snack and Shack</szFacilityName>
 		<szFacilityShortName>Motel</szFacilityShortName>
 		<ubTotalStaffLimit>8</ubTotalStaffLimit>
-			<ASSIGNMENT>
+		<ASSIGNMENT>
 			<ubAssignmentType>REST</ubAssignmentType>
-			<szTooltipText>This motel offers a few quiet rooms, clean beds, and a health local breakfast.</szTooltipText>
+			<szTooltipText>This motel offers a few quiet rooms, clean beds, and a healthy local breakfast.</szTooltipText>
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>40</sCostPerHour>
-			<ubPerformance>150</ubPerformance>
-			<ubSleep>140</ubSleep>
+			<usPerformance>150</usPerformance>
+			<usSleep>140</usSleep>
 			<CONDITIONS>
 			</CONDITIONS>
 			<MORALE>
@@ -1178,11 +1178,11 @@
 		</ASSIGNMENT>
 		<ASSIGNMENT>
 			<ubAssignmentType>PATIENT</ubAssignmentType>
-			<szTooltipText>A clean bed and a hearty meal / will soon help your mercs to heal.</szTooltipText>
+			<szTooltipText>A clean bed and a hearty meal will soon help your mercs to heal.</szTooltipText>
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>40</sCostPerHour>
-			<ubPerformance>120</ubPerformance>
-			<ubSleep>140</ubSleep>
+			<usPerformance>120</usPerformance>
+			<usSleep>140</usSleep>
 			<CONDITIONS>
 			</CONDITIONS>
 		</ASSIGNMENT>
@@ -1278,8 +1278,8 @@
 			<szTooltipText>After winning their trust, some of the locals are willing to offer you their hospitality. It might be a bit basic, but it sure is better than sleeping on the barren ground.</szTooltipText>
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>20</sCostPerHour>
-			<ubPerformance>120</ubPerformance>
-			<ubSleep>120</ubSleep>
+			<usPerformance>120</usPerformance>
+			<usSleep>120</usSleep>
 			<CONDITIONS>
 				<ubMinimumLoyaltyHere>50</ubMinimumLoyaltyHere>
 			</CONDITIONS>
@@ -1304,8 +1304,8 @@
 			<szTooltipText>A clean bed and a hearty meal / will soon help your mercs to heal.</szTooltipText>
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>20</sCostPerHour>
-			<ubPerformance>110</ubPerformance>
-			<ubSleep>120</ubSleep>
+			<usPerformance>110</usPerformance>
+			<usSleep>120</usSleep>
 			<CONDITIONS>
 				<ubMinimumLoyaltyHere>50</ubMinimumLoyaltyHere>
 			</CONDITIONS>
@@ -1322,8 +1322,8 @@
 			<szTooltipText>These nice homes seem to be abandoned. Hmmmmm.... comfortable beds.</szTooltipText>
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>0</sCostPerHour>
-			<ubPerformance>160</ubPerformance>
-			<ubSleep>150</ubSleep>
+			<usPerformance>160</usPerformance>
+			<usSleep>150</usSleep>
 			<CONDITIONS>
 			</CONDITIONS>
 			<MORALE>
@@ -1347,8 +1347,8 @@
 			<szTooltipText>A clean bed and a hearty meal / will soon help your mercs to heal.</szTooltipText>
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>20</sCostPerHour>
-			<ubPerformance>130</ubPerformance>
-			<ubSleep>150</ubSleep>
+			<usPerformance>130</usPerformance>
+			<usSleep>150</usSleep>
 		</ASSIGNMENT>
 	</FACILITYTYPE>
 
