@@ -107,8 +107,8 @@
 			<ubAssignmentType>PATIENT</ubAssignmentType>
 			<szTooltipText>Comfy hospital beds and plenty of medical equipment will help hasten the recovery of your wounded mercs. Of course, a hospital isn't the healthiest place to stay for a long time, what with all the sick people around.</szTooltipText>
 			<ubStaffLimit>10</ubStaffLimit>
-			<usPerformance>130</usPerformance>
-			<usSleep>120</usSleep>
+			<usPerformance>120</usPerformance>
+			<usSleep>130</usSleep>
 			<sCostPerHour>20</sCostPerHour>
 			<CONDITIONS>
 			</CONDITIONS>
@@ -427,7 +427,7 @@
 			<szTooltipText>There are plenty of beds here. It's a bit basic, but certainly better than resting outside!</szTooltipText>
 			<ubStaffLimit>10</ubStaffLimit>
 			<usPerformance>110</usPerformance>
-			<usSleep>105</usSleep>
+			<usSleep>120</usSleep>
 		</ASSIGNMENT>
 	</FACILITYTYPE>
 
@@ -1085,8 +1085,8 @@
 			<szTooltipText>Sun, sand, surf. This sure as hell beats sleeping in a trench. Of course, the people of Arulco are not going to like the fact that you're resting at a beach resort instead of fighting for their freedom.</szTooltipText>
 			<ubStaffLimit>32</ubStaffLimit>
 			<sCostPerHour>15</sCostPerHour>
-			<usPerformance>200</usPerformance>
-			<usSleep>160</usSleep>
+			<usPerformance>160</usPerformance>
+			<usSleep>200</usSleep>
 			<MORALE>
 				<ubChance>500</ubChance>
 				<bBaseEffect>10</bBaseEffect>
@@ -1108,8 +1108,8 @@
 			<szTooltipText>Say you're wounded. Would you rather be receiving medical treatment while lying in a pool of mud, or while lying on a comfy beach recliner? Just watch it, the people of Arulco are probably going to assume that you're just goofing off at their expense.</szTooltipText>
 			<ubStaffLimit>32</ubStaffLimit>
 			<sCostPerHour>120</sCostPerHour>
-			<usPerformance>150</usPerformance>
-			<usSleep>130</usSleep>
+			<usPerformance>130</usPerformance>
+			<usSleep>150</usSleep>
 			<MORALE>
 				<ubChance>500</ubChance>
 				<bBaseEffect>5</bBaseEffect>
@@ -1151,8 +1151,8 @@
 			<szTooltipText>This motel offers a few quiet rooms, clean beds, and a healthy local breakfast.</szTooltipText>
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>40</sCostPerHour>
-			<usPerformance>150</usPerformance>
-			<usSleep>140</usSleep>
+			<usPerformance>140</usPerformance>
+			<usSleep>150</usSleep>
 			<CONDITIONS>
 			</CONDITIONS>
 			<MORALE>
@@ -1240,7 +1240,7 @@
 			<szTooltipText>There are plenty of beds here. It's a bit basic, but certainly better than resting outside!</szTooltipText>
 			<ubStaffLimit>10</ubStaffLimit>
 			<usPerformance>110</usPerformance>
-			<usSleep>105</usSleep>
+			<usSleep>120</usSleep>
 		</ASSIGNMENT>
 	</FACILITYTYPE>
 
@@ -1279,7 +1279,7 @@
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>20</sCostPerHour>
 			<usPerformance>120</usPerformance>
-			<usSleep>120</usSleep>
+			<usSleep>130</usSleep>
 			<CONDITIONS>
 				<ubMinimumLoyaltyHere>50</ubMinimumLoyaltyHere>
 			</CONDITIONS>
@@ -1322,8 +1322,8 @@
 			<szTooltipText>These nice homes seem to be abandoned. Hmmmmm.... comfortable beds.</szTooltipText>
 			<ubStaffLimit>8</ubStaffLimit>
 			<sCostPerHour>0</sCostPerHour>
-			<usPerformance>160</usPerformance>
-			<usSleep>150</usSleep>
+			<usPerformance>150</usPerformance>
+			<usSleep>160</usSleep>
 			<CONDITIONS>
 			</CONDITIONS>
 			<MORALE>
@@ -1408,7 +1408,7 @@
 			<szTooltipText>There are plenty of beds here. It's a bit basic, but certainly better than resting outside. Though it's quite hot in the desert. </szTooltipText>
 			<ubStaffLimit>10</ubStaffLimit>
 			<usPerformance>110</usPerformance>
-			<usSleep>105</usSleep>
+			<usSleep>120</usSleep>
 		</ASSIGNMENT>
 	</FACILITYTYPE>
 
