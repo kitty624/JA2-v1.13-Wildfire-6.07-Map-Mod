@@ -49,3 +49,8 @@ Installation:
 5. Play the game.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Compatibility:
+
+If you want to use this map mod with "Arulco Folding Stock" mod or "1.13 Stock Data Overhaul" you will need to use the correct "Ja2Set.dat.xml".
+I prepared example files "Ja2Set.dat.xml.AFS" and "Ja2Set.dat.xml.Overhaul" which you can use. Just rename the corresponding one to "Ja2Set.dat.xml".
