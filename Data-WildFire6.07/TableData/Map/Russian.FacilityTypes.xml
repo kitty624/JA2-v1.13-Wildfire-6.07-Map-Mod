@@ -130,10 +130,6 @@
 			<ubAssignmentType>SPREAD_PROPAGANDA_GLOBAL</ubAssignmentType>
 			<szTooltipText>Возьмите под контроль местные информационные каналы и управляйте потоком новостей во всем регионе.</szTooltipText>
 		</ASSIGNMENT>
-		<ASSIGNMENT>
-			<ubAssignmentType>STRATEGIC_MILITIA_MOVEMENT</ubAssignmentType>
-			<szTooltipText>На этом военном объекте есть центр управления, позволяющий вам перемещать ополчение на стратегическом экране. Вы можете отдать приказ на движение, используя клавиши 'W', 'A', 'S', 'D'.</szTooltipText>
-		</ASSIGNMENT>
 
 		<ASSIGNMENT>
 			<ubAssignmentType>TRAINER_LEADERSHIP</ubAssignmentType>
