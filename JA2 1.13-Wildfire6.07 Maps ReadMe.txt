@@ -1,13 +1,13 @@
 This version contains the following Wildfire 6.07 content for the English Version of Jagged Alliance 2:
 - WF maps
 
-http://www.ja-galaxy-forum.com/board/ubbthreads.php/topics/324229/Re_install_and_run_wildfire_6_.html#Post324229
-
-Jagged Alliance 1.13 stable 4870 will not work with the WF6.07 maps because WF6.07 contains data which is not recognized by the old JA2.exe.
-You will need to use the latest SCI.
+IMPORTANT! Jagged Alliance 1.13 stable 4870 will not work with the WF6.07 maps because WF6.07 contains data which is not recognized by the old JA2.exe.
+You will need to use the latest SCI (exe version 7826 or higher). You can use the 7609 stable version but you will need to rename the following files in Data-WildFire6.07\TableData\Map:
+- FacilityTypes.xml.bak to FacilityTypes.xml
+- SectorNames.xml.bak to SectorNames.xml
 
 Downloads for latest SCI (Single Click Installer):
-http://www.bears-pit.com/board/ubbthread...html#Post311288
+http://thepit.ja-galaxy-forum.com/index.php?t=thread&frm_id=282&
 
 Download for Wildfire Maps Mod 6.07 (use SVN client like Tortoise SVN):
 https://ja2svn.no-ip.org/source/ja2/branches/Wanne/JA2 1.13 Wildfire 6.06 - Maps MOD
@@ -29,7 +29,7 @@ If you think something is brilliant, tell us. We like to be flattered.
 
 Feel free to discus the mod in one of the following forums we regularly check:
 
-http://www.ja-galaxy-forum.com/board/ubbthreads.php/topics/324215/Re_install_and_run_wildfire_6_.html#Post324215
+http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=19409&goto=336819&#msg_336819
 
 We are glad to hear about any strange findings and like to hear your feedback. 
 

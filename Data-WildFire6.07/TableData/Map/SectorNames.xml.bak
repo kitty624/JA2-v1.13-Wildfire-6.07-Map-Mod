@@ -170,8 +170,8 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
     <usCivilianPopulation>150</usCivilianPopulation>
-    <usPrisonRoomNumber>53</usPrisonRoomNumber>
-    <usPrisonRoomNumber>54</usPrisonRoomNumber>
+    <usPrisonRoomNumber00>53</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>54</usPrisonRoomNumber01>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B3</SectorGrid>
@@ -504,10 +504,10 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
-    <usPrisonRoomNumber>131</usPrisonRoomNumber>
-    <usPrisonRoomNumber>132</usPrisonRoomNumber>
-    <usPrisonRoomNumber>133</usPrisonRoomNumber>
-    <usPrisonRoomNumber>141</usPrisonRoomNumber>
+    <usPrisonRoomNumber00>131</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>132</usPrisonRoomNumber01>
+    <usPrisonRoomNumber02>133</usPrisonRoomNumber02>
+    <usPrisonRoomNumber03>141</usPrisonRoomNumber03>
    </SECTOR>
    <SECTOR>
     <SectorGrid>D6</SectorGrid>
@@ -995,8 +995,8 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
-    <usPrisonRoomNumber>2</usPrisonRoomNumber>
-    <usPrisonRoomNumber>10</usPrisonRoomNumber>
+    <usPrisonRoomNumber00>2</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>10</usPrisonRoomNumber01>
    </SECTOR>
    <SECTOR>
     <SectorGrid>G10</SectorGrid>
@@ -1341,20 +1341,20 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>200</usCivilianPopulation>
-    <usPrisonRoomNumber>65</usPrisonRoomNumber>
-    <usPrisonRoomNumber>66</usPrisonRoomNumber>
-    <usPrisonRoomNumber>67</usPrisonRoomNumber>
-    <usPrisonRoomNumber>68</usPrisonRoomNumber>
-    <usPrisonRoomNumber>69</usPrisonRoomNumber>
-    <usPrisonRoomNumber>70</usPrisonRoomNumber>
-    <usPrisonRoomNumber>71</usPrisonRoomNumber>
-    <usPrisonRoomNumber>72</usPrisonRoomNumber>
-    <usPrisonRoomNumber>73</usPrisonRoomNumber>
-    <usPrisonRoomNumber>74</usPrisonRoomNumber>
-    <usPrisonRoomNumber>75</usPrisonRoomNumber>
-    <usPrisonRoomNumber>76</usPrisonRoomNumber>
-    <usPrisonRoomNumber>77</usPrisonRoomNumber>
-    <usPrisonRoomNumber>78</usPrisonRoomNumber>
+    <usPrisonRoomNumber00>65</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>66</usPrisonRoomNumber01>
+    <usPrisonRoomNumber02>67</usPrisonRoomNumber02>
+    <usPrisonRoomNumber03>68</usPrisonRoomNumber03>
+    <usPrisonRoomNumber04>69</usPrisonRoomNumber04>
+    <usPrisonRoomNumber05>70</usPrisonRoomNumber05>
+    <usPrisonRoomNumber06>71</usPrisonRoomNumber06>
+    <usPrisonRoomNumber07>72</usPrisonRoomNumber07>
+    <usPrisonRoomNumber08>73</usPrisonRoomNumber08>
+    <usPrisonRoomNumber09>74</usPrisonRoomNumber09>
+    <usPrisonRoomNumber10>75</usPrisonRoomNumber10>
+    <usPrisonRoomNumber11>76</usPrisonRoomNumber11>
+    <usPrisonRoomNumber12>77</usPrisonRoomNumber12>
+    <usPrisonRoomNumber13>78</usPrisonRoomNumber13>
    </SECTOR>
     <SECTOR>
     <SectorGrid>I14</SectorGrid>
@@ -1468,21 +1468,21 @@
     <usCurfewValue>2</usCurfewValue>
     <sRadioScanModifier>1</sRadioScanModifier>
     <usCivilianPopulation>100</usCivilianPopulation>
-    <usPrisonRoomNumber>30</usPrisonRoomNumber>
-    <usPrisonRoomNumber>31</usPrisonRoomNumber>
-    <usPrisonRoomNumber>32</usPrisonRoomNumber>
-    <usPrisonRoomNumber>27</usPrisonRoomNumber>
-    <usPrisonRoomNumber>26</usPrisonRoomNumber>
-    <usPrisonRoomNumber>38</usPrisonRoomNumber>
-    <usPrisonRoomNumber>39</usPrisonRoomNumber>
-    <usPrisonRoomNumber>40</usPrisonRoomNumber>
-    <usPrisonRoomNumber>41</usPrisonRoomNumber>
-    <usPrisonRoomNumber>42</usPrisonRoomNumber>
-    <usPrisonRoomNumber>14</usPrisonRoomNumber>
-    <usPrisonRoomNumber>46</usPrisonRoomNumber>
-    <usPrisonRoomNumber>47</usPrisonRoomNumber>
-    <usPrisonRoomNumber>48</usPrisonRoomNumber>
-    <usPrisonRoomNumber>49</usPrisonRoomNumber>
+    <usPrisonRoomNumber00>30</usPrisonRoomNumber00>
+    <usPrisonRoomNumber01>31</usPrisonRoomNumber01>
+    <usPrisonRoomNumber02>32</usPrisonRoomNumber02>
+    <usPrisonRoomNumber03>27</usPrisonRoomNumber03>
+    <usPrisonRoomNumber04>26</usPrisonRoomNumber04>
+    <usPrisonRoomNumber05>38</usPrisonRoomNumber05>
+    <usPrisonRoomNumber06>39</usPrisonRoomNumber06>
+    <usPrisonRoomNumber07>40</usPrisonRoomNumber07>
+    <usPrisonRoomNumber08>41</usPrisonRoomNumber08>
+    <usPrisonRoomNumber09>42</usPrisonRoomNumber09>
+    <usPrisonRoomNumber10>14</usPrisonRoomNumber10>
+    <usPrisonRoomNumber11>46</usPrisonRoomNumber11>
+    <usPrisonRoomNumber12>47</usPrisonRoomNumber12>
+    <usPrisonRoomNumber13>48</usPrisonRoomNumber13>
+    <usPrisonRoomNumber14>49</usPrisonRoomNumber14>
    </SECTOR>
    <SECTOR>
     <SectorGrid>J10</SectorGrid>
@@ -2072,7 +2072,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
     <sRadioScanModifier>1</sRadioScanModifier>
-    <usPrisonRoomNumber>3</usPrisonRoomNumber>
+    <usPrisonRoomNumber00>3</usPrisonRoomNumber00>
    </SECTOR>
    <SECTOR>
     <SectorGrid>N8</SectorGrid>
