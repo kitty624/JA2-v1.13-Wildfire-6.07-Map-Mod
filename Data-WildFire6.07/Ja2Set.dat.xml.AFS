@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <JA2SET>
-	<tilesets numTilesets="50" numFiles="151">
+	<tilesets numTilesets="50" numFiles="155">
 		<Tileset index="0">
 			<Name>GENERIC 1</Name>
 			<AmbientID>32</AmbientID>
@@ -159,6 +159,7 @@
 				<file index="151">smp4items.sti</file>
 				<file index="152">smp5items.sti</file>
 				<file index="153">smp6items.sti</file>
+				<file index="154">smp7items.sti</file>
 			</Files>
 		</Tileset>
 		<Tileset index="1">
