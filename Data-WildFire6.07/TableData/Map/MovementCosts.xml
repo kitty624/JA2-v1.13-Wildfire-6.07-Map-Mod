@@ -1,3 +1,75 @@
+<!-- 	this a comment, all of the text between the angled brackets is ignored
+
+Attribute Field Reference:
+
+	Sector y="Y" x="X"	- defines a sector at [Y,X]. Ranges for X=1..16. Ranges for Y=A..P or Y=1..16.
+	TravelRating		- represents how travelled a sector is.  Typically, the higher the travel rating,
+				  the more people go near it.  A travel rating of 0 means there are never people
+				  around.  This value is used for determining how often items would "vanish" from
+				  a sector (nice theory, except it isn't being used that way). NOT USED IN GAME!!!!
+	North			- determines the traversability ratings to north sector from current.
+	South			- determines the traversability ratings to south sector from current.
+	East			- determines the traversability ratings to east sector from current.
+	West			- determines the traversability ratings to west sector from current.
+	Here			- represents the area of current sector. Not involved into movement time calculation.
+					  Used for determining loading screens and some ingame mechanics
+	BadSector		- determines if this sector will be selectable at all in the strategic map
+
+Possible values for North, South, East and West tags:
+	TOWN,			//instant (5 min)
+	ROAD,			//everything travels at 100%
+	PLAINS,			//foot 90%
+	SAND,			//foot 70%
+	SPARSE,			//foot 70%
+	DENSE,			//foot 50% 
+	SWAMP,			//foot 20%
+	WATER,			//foot 15%
+	HILLS,			//foot 50%
+	GROUNDBARRIER,		//only air (super dense forest, ocean, etc.)
+	NS_RIVER,		//river from north to south, foot 25%
+	EW_RIVER,		//river from east to west, foot 25%
+	EDGEOFWORLD		//nobody can traverse.
+
+Travel time is determined by formula:
+
+TravelTime = BaseTravelTime * 100 / Rating,
+
+where BaseTravelTime is equal
+	89 min, if your mercs on foot,
+	30 min, if your mercs in car,
+	10 min, if your mercs in helicopter.
+
+TravelTime is always equal to 5 min, if you are not in helicopter and moving between town sectors.
+
+Possible values for Here tag:
+	TOWN,
+	ROAD,
+	PLAINS,
+	SAND,
+	SPARSE,
+	DENSE, 
+	SWAMP,
+	WATER,
+	HILLS,
+	GROUNDBARRIER,
+	NS_RIVER,
+	EW_RIVER,
+	EDGEOFWORLD,
+	TROPICS,
+	FARMLAND,
+	PLAINS_ROAD,
+	SPARSE_ROAD,
+	FARMLAND_ROAD,
+	TROPICS_ROAD,
+	DENSE_ROAD,
+	COASTAL,
+	HILLS_ROAD,
+	COASTAL_ROAD,
+	SAND_ROAD,
+	SWAMP_ROAD,
+
+
+-->
 <StrategicMovementCosts>
 	<SectorTraversal>
 		<Sector y="A" x="1">
@@ -19,7 +91,7 @@
 		<Sector y="A" x="3">
 			<TravelRating>9</TravelRating>
 			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
+			<East>GROUNDBARRIER</East>
 			<South>PLAINS</South>
 			<West>PLAINS</West>
 			<Here>PLAINS</Here>
@@ -27,25 +99,27 @@
 		<Sector y="A" x="4">
 			<TravelRating>0</TravelRating>
 			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="A" x="5">
 			<TravelRating>0</TravelRating>
 			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="A" x="6">
 			<TravelRating>5</TravelRating>
 			<North>EDGEOFWORLD</North>
 			<East>HILLS</East>
 			<South>PLAINS</South>
-			<West>EDGEOFWORLD</West>
+			<West>GROUNDBARRIER</West>
 			<Here>HILLS</Here>
 		</Sector>
 		<Sector y="A" x="7">
@@ -115,7 +189,7 @@
 		<Sector y="A" x="15">
 			<TravelRating>8</TravelRating>
 			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
+			<East>GROUNDBARRIER</East>
 			<South>PLAINS</South>
 			<West>PLAINS</West>
 			<Here>DENSE</Here>
@@ -124,9 +198,10 @@
 			<TravelRating>0</TravelRating>
 			<North>EDGEOFWORLD</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="B" x="1">
 			<TravelRating>10</TravelRating>
@@ -154,7 +229,7 @@
 		</Sector>
 		<Sector y="B" x="4">
 			<TravelRating>4</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>PLAINS</East>
 			<South>SPARSE</South>
 			<West>SPARSE</West>
@@ -162,7 +237,7 @@
 		</Sector>
 		<Sector y="B" x="5">
 			<TravelRating>15</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>ROAD</East>
 			<South>PLAINS</South>
 			<West>PLAINS</West>
@@ -250,7 +325,7 @@
 		</Sector>
 		<Sector y="B" x="16">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
 			<South>PLAINS</South>
 			<West>PLAINS</West>
@@ -391,6 +466,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="D" x="2">
 			<TravelRating>7</TravelRating>
@@ -508,7 +584,7 @@
 			<TravelRating>5</TravelRating>
 			<North>PLAINS</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
+			<South>GROUNDBARRIER</South>
 			<West>PLAINS</West>
 			<Here>DENSE</Here>
 		</Sector>
@@ -519,12 +595,13 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="E" x="2">
 			<TravelRating>10</TravelRating>
 			<North>PLAINS</North>
 			<East>PLAINS</East>
-			<South>GROUNDBARRIER</South>
+			<South>PLAINS</South>
 			<West>GROUNDBARRIER</West>
 			<Here>TROPICS</Here>
 		</Sector>
@@ -627,18 +704,19 @@
 		<Sector y="E" x="15">
 			<TravelRating>8</TravelRating>
 			<North>ROAD</North>
-			<East>EDGEOFWORLD</East>
+			<East>GROUNDBARRIER</East>
 			<South>ROAD</South>
 			<West>PLAINS</West>
 			<Here>DENSE_ROAD</Here>
 		</Sector>
 		<Sector y="E" x="16">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="F" x="1">
 			<TravelRating>0</TravelRating>
@@ -647,10 +725,11 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="F" x="2">
 			<TravelRating>4</TravelRating>
-			<North>GROUNDBARRIER</North>
+			<North>PLAINS</North>
 			<East>ROAD</East>
 			<South>TOWN</South>
 			<West>GROUNDBARRIER</West>
@@ -755,18 +834,19 @@
 		<Sector y="F" x="15">
 			<TravelRating>3</TravelRating>
 			<North>ROAD</North>
-			<East>EDGEOFWORLD</East>
+			<East>GROUNDBARRIER</East>
 			<South>PLAINS</South>
 			<West>ROAD</West>
 			<Here>DENSE_ROAD</Here>
 		</Sector>
 		<Sector y="F" x="16">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="G" x="1">
 			<TravelRating>60</TravelRating>
@@ -890,7 +970,7 @@
 		</Sector>
 		<Sector y="G" x="16">
 			<TravelRating>4</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
 			<South>PLAINS</South>
 			<West>PLAINS</West>
@@ -1031,21 +1111,23 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="I" x="2">
 			<TravelRating>3</TravelRating>
 			<North>GROUNDBARRIER</North>
-			<East>PLAINS</East>
+			<East>GROUNDBARRIER</East>
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="I" x="3">
 			<TravelRating>45</TravelRating>
 			<North>ROAD</North>
 			<East>ROAD</East>
 			<South>ROAD</South>
-			<West>PLAINS</West>
+			<West>GROUNDBARRIER</West>
 			<Here>COASTAL_ROAD</Here>
 		</Sector>
 		<Sector y="I" x="4">
@@ -1148,7 +1230,7 @@
 			<TravelRating>2</TravelRating>
 			<North>PLAINS</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
+			<South>GROUNDBARRIER</South>
 			<West>PLAINS</West>
 			<Here>SPARSE</Here>
 		</Sector>
@@ -1159,6 +1241,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="J" x="2">
 			<TravelRating>50</TravelRating>
@@ -1267,18 +1350,19 @@
 		<Sector y="J" x="15">
 			<TravelRating>10</TravelRating>
 			<North>PLAINS</North>
-			<East>EDGEOFWORLD</East>
+			<East>GROUNDBARRIER</East>
 			<South>PLAINS</South>
 			<West>PLAINS</West>
 			<Here>SPARSE</Here>
 		</Sector>
 		<Sector y="J" x="16">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="K" x="1">
 			<TravelRating>0</TravelRating>
@@ -1287,6 +1371,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="K" x="2">
 			<TravelRating>55</TravelRating>
@@ -1395,18 +1480,19 @@
 		<Sector y="K" x="15">
 			<TravelRating>7</TravelRating>
 			<North>PLAINS</North>
-			<East>EDGEOFWORLD</East>
+			<East>GROUNDBARRIER</East>
 			<South>PLAINS</South>
 			<West>PLAINS</West>
 			<Here>DENSE</Here>
 		</Sector>
 		<Sector y="K" x="16">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="L" x="1">
 			<TravelRating>4</TravelRating>
@@ -1523,18 +1609,19 @@
 		<Sector y="L" x="15">
 			<TravelRating>3</TravelRating>
 			<North>PLAINS</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
 			<West>PLAINS</West>
 			<Here>DENSE</Here>
 		</Sector>
 		<Sector y="L" x="16">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="M" x="1">
 			<TravelRating>0</TravelRating>
@@ -1543,6 +1630,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="M" x="2">
 			<TravelRating>65</TravelRating>
@@ -1623,6 +1711,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="M" x="12">
 			<TravelRating>12</TravelRating>
@@ -1631,38 +1720,41 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="M" x="13">
 			<TravelRating>5</TravelRating>
 			<North>TOWN</North>
 			<East>PLAINS</East>
-			<South>EDGEOFWORLD</South>
+			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>TOWN</Here>
 		</Sector>
 		<Sector y="M" x="14">
 			<TravelRating>2</TravelRating>
 			<North>PLAINS</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
 			<West>PLAINS</West>
 			<Here>SWAMP</Here>
 		</Sector>
 		<Sector y="M" x="15">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="M" x="16">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="N" x="1">
 			<TravelRating>0</TravelRating>
@@ -1671,6 +1763,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="N" x="2">
 			<TravelRating>0</TravelRating>
@@ -1679,6 +1772,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="N" x="3">
 			<TravelRating>80</TravelRating>
@@ -1751,46 +1845,52 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="N" x="12">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="N" x="13">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="N" x="14">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="N" x="15">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="N" x="16">
 			<TravelRating>0</TravelRating>
 			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
-		</Sector>
-		<Sector y="N" x="13">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
-		</Sector>
-		<Sector y="N" x="14">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
-		</Sector>
-		<Sector y="N" x="15">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
-		</Sector>
-		<Sector y="N" x="16">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="1">
 			<TravelRating>0</TravelRating>
@@ -1799,6 +1899,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="2">
 			<TravelRating>0</TravelRating>
@@ -1807,6 +1908,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="3">
 			<TravelRating>90</TravelRating>
@@ -1831,6 +1933,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="6">
 			<TravelRating>0</TravelRating>
@@ -1839,6 +1942,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="7">
 			<TravelRating>0</TravelRating>
@@ -1847,6 +1951,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="8">
 			<TravelRating>5</TravelRating>
@@ -1871,6 +1976,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="11">
 			<TravelRating>0</TravelRating>
@@ -1879,6 +1985,7 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="12">
 			<TravelRating>0</TravelRating>
@@ -1887,38 +1994,43 @@
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="O" x="13">
 			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="O" x="14">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="O" x="15">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>GROUNDBARRIER</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="O" x="16">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
 			<South>GROUNDBARRIER</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
-		</Sector>
-		<Sector y="O" x="14">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
-		</Sector>
-		<Sector y="O" x="15">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
-		</Sector>
-		<Sector y="O" x="16">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="1">
 			<TravelRating>0</TravelRating>
@@ -1927,6 +2039,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>EDGEOFWORLD</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="2">
 			<TravelRating>0</TravelRating>
@@ -1935,6 +2048,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="3">
 			<TravelRating>100</TravelRating>
@@ -1951,6 +2065,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="5">
 			<TravelRating>0</TravelRating>
@@ -1959,6 +2074,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="6">
 			<TravelRating>0</TravelRating>
@@ -1967,6 +2083,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="7">
 			<TravelRating>0</TravelRating>
@@ -1975,6 +2092,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="8">
 			<TravelRating>0</TravelRating>
@@ -1983,6 +2101,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="9">
 			<TravelRating>0</TravelRating>
@@ -1991,6 +2110,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="10">
 			<TravelRating>0</TravelRating>
@@ -1999,6 +2119,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="11">
 			<TravelRating>0</TravelRating>
@@ -2007,6 +2128,7 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="12">
 			<TravelRating>0</TravelRating>
@@ -2015,38 +2137,43 @@
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 		<Sector y="P" x="13">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>EDGEOFWORLD</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="P" x="14">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>EDGEOFWORLD</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="P" x="15">
+			<TravelRating>0</TravelRating>
+			<North>GROUNDBARRIER</North>
+			<East>GROUNDBARRIER</East>
+			<South>EDGEOFWORLD</South>
+			<West>GROUNDBARRIER</West>
+			<Here>GROUNDBARRIER</Here>
+			<BadSector>1</BadSector>
+		</Sector>
+		<Sector y="P" x="16">
 			<TravelRating>0</TravelRating>
 			<North>GROUNDBARRIER</North>
 			<East>EDGEOFWORLD</East>
 			<South>EDGEOFWORLD</South>
 			<West>GROUNDBARRIER</West>
 			<Here>GROUNDBARRIER</Here>
-		</Sector>
-		<Sector y="P" x="14">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
-		</Sector>
-		<Sector y="P" x="15">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
-		</Sector>
-		<Sector y="P" x="16">
-			<TravelRating>0</TravelRating>
-			<North>EDGEOFWORLD</North>
-			<East>EDGEOFWORLD</East>
-			<South>EDGEOFWORLD</South>
-			<West>EDGEOFWORLD</West>
-			<Here>EDGEOFWORLD</Here>
+			<BadSector>1</BadSector>
 		</Sector>
 	</SectorTraversal>
 </StrategicMovementCosts>
