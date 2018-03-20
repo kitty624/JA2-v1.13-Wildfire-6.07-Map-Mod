@@ -177,6 +177,9 @@ Profil =
 	MADLAB = 146,
 	ROBOT = 62,
 	MIGUEL = 57,
+	CARLOS = 58,
+	IRA = 59,
+	DIMITRI = 60,
 	KYLE = 95,
 }
 
@@ -201,6 +204,7 @@ CivGroup =
 	FACTORY_GROUP = 31,
 	ADMINISTRATIVE_STAFF_GROUP = 32,
 	LOYAL_CIV_GROUP = 33,
+	BLACKMARKET_GROUP = 34,
 }
 
 Bodytype = 
@@ -387,13 +391,15 @@ function HandleSectorLiberation( sNewSectorX, sNewSectorY, bNewSectorZ, fFirstTi
 				
 				-- inform us that there is a sublevel
 				if ( (GetModderLUAFact(ModSpecificFacts.TIXA_PRISON_SUBLEVEL_VOLUNTEERSGAINED) == 0) ) then
-					SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "This prison seems to have a sublevel, where more important inamtes are held.")
+					SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "This prison seems to have a sublevel, where more important inmates are held.")
 				end
 				
 				-- if we haven't yet freed the Alma prisoners, give us a tip about that
 				if ( (GetModderLUAFact(ModSpecificFacts.ALMA_PRISON_VOLUNTEERSGAINED) == 0) ) then
 					SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "A few inmates inform us that there is another prison like this in Alma!")
 				end
+				
+				AddIntel( 5 )
 				
 				SetModderLUAFact(ModSpecificFacts.TIXA_PRISON_VOLUNTEERSGAINED, 1)
 				
@@ -408,6 +414,8 @@ function HandleSectorLiberation( sNewSectorX, sNewSectorY, bNewSectorZ, fFirstTi
 					SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "A few inmates inform us that there is another prison like this in a place called Tixa. They aren't sure where it is though.")
 				end
 				
+				AddIntel( 5 )
+				
 				SetModderLUAFact(ModSpecificFacts.ALMA_PRISON_VOLUNTEERSGAINED, 1)
 			end
 		end
@@ -421,6 +429,8 @@ function HandleSectorLiberation( sNewSectorX, sNewSectorY, bNewSectorZ, fFirstTi
 			
 			SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "The prisoners are very grateful for freeing them.")
 			
+			AddIntel( 5 )
+			
 			SetModderLUAFact(ModSpecificFacts.TIXA_PRISON_SUBLEVEL_VOLUNTEERSGAINED, 1)
 		end
 	end
@@ -429,9 +439,18 @@ end
 -- this function is called whenever we recruit a RPC
 function RecruitRPCAdditionalHandling( usProfile )
 
-	-- if Miguel joins us, the rest of the rebels joins us too
+	-- as the rebels join us, we gradually get more volunteers
 	if ( usProfile == Profil.MIGUEL ) then
-		AddVolunteers( 10 )
+		AddVolunteers( 4 )
+		AddIntel( 10 )
+	elseif ( usProfile == Profil.CARLOS ) then
+		AddVolunteers( 2 )
+	elseif ( usProfile == Profil.DIMITRI ) then
+		AddVolunteers( 2 )
+		AddIntel( 2 )
+	elseif ( usProfile == Profil.IRA ) then
+		AddVolunteers( 2 )
+		AddIntel( 5 )
 	end
 end
 

@@ -49,6 +49,9 @@
 	<snakechance>
 	Value between 0 and 100. If > 0, snakes can attack people in water. The higher the value, the more frequent this happens.
 	
+	<numsnakes>
+	Value between 0 and 100. This is the maximum number of snakes that can be active during a snake attack.
+	
 	<maxworkers>
 	Maximum number of workers that can be employed in this sector.
 -->
@@ -66,6 +69,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <numsnakes>0</numsnakes>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A2</SectorGrid>
@@ -475,6 +479,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B16</SectorGrid>
@@ -689,6 +694,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>	
    <SECTOR>
     <SectorGrid>C16</SectorGrid>
@@ -702,6 +708,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>D1</SectorGrid>
@@ -867,6 +874,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>D13</SectorGrid>
@@ -1108,6 +1116,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR> 
    <SECTOR>
     <SectorGrid>E15</SectorGrid>
@@ -1563,6 +1572,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>H1</SectorGrid>
@@ -1774,6 +1784,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>H16</SectorGrid>
@@ -2069,6 +2080,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>J5</SectorGrid>
@@ -2082,6 +2094,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>J6</SectorGrid>
@@ -2284,6 +2297,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>K4</SectorGrid>
@@ -2298,6 +2312,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>K5</SectorGrid>
@@ -2311,6 +2326,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>K6</SectorGrid>
@@ -2496,6 +2512,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>L4</SectorGrid>
@@ -2509,6 +2526,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>L5</SectorGrid>
@@ -2643,6 +2661,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>L15</SectorGrid>
@@ -2862,6 +2881,7 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>50</snakechance>
+    <numsnakes>7</numsnakes>
    </SECTOR>
    <SECTOR>
     <SectorGrid>M15</SectorGrid>

@@ -452,9 +452,7 @@
 		<szFacilityShortName>Barracks</szFacilityShortName>
 		<ubTotalStaffLimit>12</ubTotalStaffLimit>
 		<ubMilitiaTrainersAllowed>3</ubMilitiaTrainersAllowed>
-		<ubMobileMilitiaTrainersAllowed>2</ubMobileMilitiaTrainersAllowed>
 		<usMilitiaTraining>110</usMilitiaTraining>
-		<usMobileMilitiaTraining>120</usMobileMilitiaTraining>
 		<ASSIGNMENT>
 			<ubAssignmentType>REST</ubAssignmentType>
 			<szTooltipText>There are plenty of beds here. It's a bit basic, but certainly better than resting outside!</szTooltipText>
@@ -596,7 +594,6 @@
 		<szFacilityShortName>A.C.A</szFacilityShortName>
 		<ubTotalStaffLimit>4</ubTotalStaffLimit>
 		<ubMilitiaTrainersAllowed>2</ubMilitiaTrainersAllowed>
-		<ubMobileMilitiaTrainersAllowed>1</ubMobileMilitiaTrainersAllowed>
 		<ASSIGNMENT>
 			<ubAssignmentType>STAFF</ubAssignmentType>
 			<szTooltipText>The locals here may be willing to scout out the surrounding area for you. You can collect the information gleaned from them to get a better idea about enemy activity in this region. They'll feel safer, and you might even learn a few things about strategic coordination.</szTooltipText>
@@ -1257,7 +1254,6 @@
 		<szFacilityName>Rebel Hideout</szFacilityName>
 		<szFacilityShortName>Rebel Hideout</szFacilityShortName>
 		<ubMilitiaTrainersAllowed>2</ubMilitiaTrainersAllowed>
-		<ubMobileMilitiaTrainersAllowed>1</ubMobileMilitiaTrainersAllowed>
 	</FACILITYTYPE>
 
 	<FACILITYTYPE>
