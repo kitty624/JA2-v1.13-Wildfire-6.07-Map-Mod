@@ -54,6 +54,11 @@
 	
 	<maxworkers>
 	Maximum number of workers that can be employed in this sector.
+	
+	<bloodcatraidpossible>0</bloodcatraidpossible>
+	<zombieraidpossible>0</zombieraidpossible>
+	<banditraidpossible>0</banditraidpossible>
+	Bloodcats/zombies/bandits can attack this sector.
 -->
 <SECTOR_NAMES>
   <SECTOR>
@@ -84,6 +89,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>A3</SectorGrid>
@@ -285,6 +293,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B2</SectorGrid>
@@ -302,6 +313,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B3</SectorGrid>
@@ -397,6 +411,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B10</SectorGrid>
@@ -452,6 +469,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>B14</SectorGrid>
@@ -614,6 +634,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
   </SECTOR>
   <SECTOR>
     <SectorGrid>C10</SectorGrid>
@@ -667,6 +690,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>C14</SectorGrid>
@@ -681,7 +707,10 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
-   </SECTOR>	
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
+   </SECTOR>
    <SECTOR>
     <SectorGrid>C15</SectorGrid>
     <szUnexploredName>Swamp</szUnexploredName>
@@ -737,6 +766,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>D3</SectorGrid>
@@ -890,6 +922,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>D14</SectorGrid>
@@ -918,6 +953,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>  
    <SECTOR>
     <SectorGrid>D16</SectorGrid>
@@ -1249,6 +1287,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>F9</SectorGrid>
@@ -1264,6 +1305,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>F10</SectorGrid>
@@ -1465,6 +1509,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>G9</SectorGrid>
@@ -1481,6 +1528,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>G10</SectorGrid>
@@ -1618,6 +1668,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>H4</SectorGrid>
@@ -1688,6 +1741,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>H9</SectorGrid>
@@ -1756,6 +1812,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>H14</SectorGrid>
@@ -1771,6 +1830,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>H15</SectorGrid>
@@ -1905,6 +1967,9 @@
     <sandstormchance>60</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>I9</SectorGrid>
@@ -1987,6 +2052,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
     <SECTOR>
     <SectorGrid>I14</SectorGrid>
@@ -2002,6 +2070,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>I15</SectorGrid>
@@ -2620,6 +2691,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>L12</SectorGrid>
@@ -2634,6 +2708,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>L13</SectorGrid>
@@ -2648,6 +2725,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>L14</SectorGrid>
@@ -2731,6 +2811,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>M4</SectorGrid>
@@ -2746,6 +2829,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>M5</SectorGrid>
@@ -2761,6 +2847,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>M6</SectorGrid>
@@ -2776,6 +2865,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>M7</SectorGrid>
@@ -2868,6 +2960,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>M14</SectorGrid>
@@ -2996,6 +3091,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>N7</SectorGrid>
@@ -3038,6 +3136,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>N10</SectorGrid>
@@ -3052,6 +3153,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>N11</SectorGrid>
@@ -3253,6 +3357,9 @@
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
     <snakechance>0</snakechance>
+    <bloodcatraidpossible>1</bloodcatraidpossible>
+    <zombieraidpossible>1</zombieraidpossible>
+    <banditraidpossible>1</banditraidpossible>
    </SECTOR>
    <SECTOR>
     <SectorGrid>O10</SectorGrid>
