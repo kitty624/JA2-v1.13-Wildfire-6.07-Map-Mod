@@ -725,6 +725,20 @@ function HandleSectorTacticalEntry( sSectorX, sSectorY, bSectorZ, fHasEverBeenPl
 				-- hunting store
 				CreateCivilian(9019, CivGroup.KINGPIN_CIV_GROUP, 62, Bodytype.REGMALE, Vest.BROWNVEST, Pants.GREENPANTS, -1, -1, 763, 135, 288, 284)
 			end
+			
+			-- if we haven't pissed of the black market, spawn dealer
+			if ( CheckCivGroupHostile(CivGroup.BLACKMARKET_GROUP) == false ) then
+				
+				-- unlock the door so we can enter
+				ACTION_ITEM_UNLOCK_DOOR(13477)
+				
+				-- black market dealer and bodyguards
+				CreateCivilian(12833, CivGroup.BLACKMARKET_GROUP, 68, Bodytype.MANCIV, Vest.GREYVEST, Pants.JEANPANTS, Hair.WHITEHEAD, Skin.BLACKSKIN, 337, 264, -1, -1)
+				CreateArmedCivilain(CivGroup.BLACKMARKET_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 12674, 0)
+				CreateArmedCivilain(CivGroup.BLACKMARKET_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 13638, 0)
+				CreateArmedCivilain(CivGroup.BLACKMARKET_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 13953, 0)
+			end
+			
 		elseif ( sSectorX == 5 and sSectorY == SectorY.MAP_ROW_C) then
 			-- only add merchants if Kingpin is alive and not hostile towards us
 			if ( (CheckFact( Facts.FACT_KINGPIN_DEAD, 0 ) == false) and
