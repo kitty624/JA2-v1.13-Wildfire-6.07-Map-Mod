@@ -37,6 +37,9 @@
 	<usCivilianPopulation>:
 	represents the amount of civilians dwelling in a sector, even if not physically present in a tactical map
 	
+	<wealth>
+	Rating of how rich the population in this sector is.
+	
 	<rainchance>
 	chance that, if it rains, it will also happen in this sector
 	
@@ -70,6 +73,7 @@
     <sWaterType>2</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
     <usCivilianPopulation>30</usCivilianPopulation>
+    <wealth>4</wealth>
     <rainchance>80</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -85,6 +89,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
     <usCivilianPopulation>70</usCivilianPopulation>
+    <wealth>4</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -181,6 +186,7 @@
     <usNaturalDirt>150</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>4</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -196,6 +202,7 @@
     <usNaturalDirt>150</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>30</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -210,6 +217,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>4</usCivilianPopulation>
+    <wealth>0</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -288,6 +296,7 @@
     <szDetailedExploredName>Chitzena</szDetailedExploredName>
     <sWaterType>2</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
+    <wealth>4</wealth>
     <usCivilianPopulation>30</usCivilianPopulation>
     <rainchance>80</rainchance>
     <sandstormchance>0</sandstormchance>
@@ -306,9 +315,11 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
     <usCivilianPopulation>150</usCivilianPopulation>
+
     <maxworkers>50</maxworkers>
     <usPrisonRoomNumber>53</usPrisonRoomNumber>
     <usPrisonRoomNumber>54</usPrisonRoomNumber>
+    <wealth>6</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -352,6 +363,7 @@
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -366,6 +378,7 @@
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -393,6 +406,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -407,6 +421,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>2</wealth>
     <rainchance>40</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -465,6 +480,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <sRadioScanModifier>2</sRadioScanModifier>
     <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>7</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -576,6 +592,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>8</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -590,6 +607,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>4</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -630,6 +648,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>40</usCivilianPopulation>
+    <wealth>2</wealth>
     <rainchance>40</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -686,6 +705,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>4</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -703,6 +723,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>140</usNaturalDirt>
     <usCivilianPopulation>20</usCivilianPopulation>
+    <wealth>4</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -809,6 +830,7 @@
     <usPrisonRoomNumber>132</usPrisonRoomNumber>
     <usPrisonRoomNumber>133</usPrisonRoomNumber>
     <usPrisonRoomNumber>141</usPrisonRoomNumber>
+    <wealth>12</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -823,6 +845,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -837,6 +860,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>170</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -918,6 +942,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
     <maxworkers>100</maxworkers>
+    <wealth>6</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1057,6 +1082,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1071,6 +1097,7 @@
     <sWaterType>0</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1085,6 +1112,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1204,6 +1232,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>180</usNaturalDirt>
     <usCivilianPopulation>30</usCivilianPopulation>
+    <wealth>8</wealth>
     <rainchance>75</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1283,6 +1312,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>7</wealth>
     <rainchance>40</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1301,6 +1331,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
     <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>2</wealth>
     <rainchance>45</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1318,6 +1349,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>45</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1410,6 +1442,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>7</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1425,6 +1458,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>8</wealth>
     <rainchance>65</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1491,6 +1525,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>175</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>40</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1505,6 +1540,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>10</wealth>
     <rainchance>40</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1524,6 +1560,7 @@
     <usCivilianPopulation>200</usCivilianPopulation>
     <usPrisonRoomNumber>2</usPrisonRoomNumber>
     <usPrisonRoomNumber>10</usPrisonRoomNumber>
+    <wealth>8</wealth>
     <rainchance>30</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1633,6 +1670,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>11</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1648,6 +1686,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>10</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1664,6 +1703,7 @@
     <usCurfewValue>1</usCurfewValue>
     <usCivilianPopulation>200</usCivilianPopulation>
     <maxworkers>200</maxworkers>
+    <wealth>12</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1681,6 +1721,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1737,6 +1778,7 @@
     <usCurfewValue>1</usCurfewValue>
     <usCivilianPopulation>200</usCivilianPopulation>
     <maxworkers>160</maxworkers>
+    <wealth>4</wealth>
     <rainchance>30</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1808,6 +1850,7 @@
     <usCurfewValue>2</usCurfewValue>
     <sRadioScanModifier>1</sRadioScanModifier>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>12</wealth>
     <rainchance>30</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1826,6 +1869,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>11</wealth>
     <rainchance>40</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1935,6 +1979,7 @@
     <sWaterType>3</sWaterType>
     <usNaturalDirt>135</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>35</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2048,6 +2093,7 @@
     <usPrisonRoomNumber>76</usPrisonRoomNumber>
     <usPrisonRoomNumber>77</usPrisonRoomNumber>
     <usPrisonRoomNumber>78</usPrisonRoomNumber>
+    <wealth>7</wealth>
     <rainchance>40</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2066,6 +2112,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>200</usCivilianPopulation>
     <maxworkers>150</maxworkers>
+    <wealth>9</wealth>
     <rainchance>45</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2176,6 +2223,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2299,6 +2347,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>175</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>40</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2408,6 +2457,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
     <usCivilianPopulation>60</usCivilianPopulation>
+    <wealth>1</wealth>
     <rainchance>45</rainchance>
     <sandstormchance>10</sandstormchance>
     <snowchance>0</snowchance>
@@ -2687,6 +2737,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>30</wealth>
     <rainchance>45</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2704,6 +2755,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>30</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2721,6 +2773,7 @@
     <sWaterType>3</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
     <usCivilianPopulation>150</usCivilianPopulation>
+    <wealth>30</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2792,6 +2845,7 @@
     <usNaturalDirt>140</usNaturalDirt>
     <usCivilianPopulation>30</usCivilianPopulation>
     <usCurfewValue>2</usCurfewValue>
+    <wealth>10</wealth>
     <rainchance>80</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2807,6 +2861,7 @@
     <usNaturalDirt>450</usNaturalDirt>
     <usCivilianPopulation>100</usCivilianPopulation>
     <usCurfewValue>2</usCurfewValue>
+    <wealth>10</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2825,6 +2880,7 @@
     <usNaturalDirt>175</usNaturalDirt>
     <usCivilianPopulation>100</usCivilianPopulation>
     <usCurfewValue>1</usCurfewValue>
+    <wealth>10</wealth>
     <rainchance>65</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2843,6 +2899,7 @@
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>60</usCivilianPopulation>
     <usCurfewValue>2</usCurfewValue>
+    <wealth>10</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2861,6 +2918,7 @@
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>80</usCivilianPopulation>
     <usCurfewValue>2</usCurfewValue>
+    <wealth>10</wealth>
     <rainchance>45</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2956,6 +3014,7 @@
     <sWaterType>2</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCivilianPopulation>80</usCivilianPopulation>
+    <wealth>28</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3041,6 +3100,7 @@
     <usCurfewValue>1</usCurfewValue>
     <sRadioScanModifier>2</sRadioScanModifier>
     <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>20</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3057,6 +3117,7 @@
     <usCurfewValue>2</usCurfewValue>
     <sRadioScanModifier>2</sRadioScanModifier>
     <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>12</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3072,6 +3133,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>15</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3087,6 +3149,7 @@
     <usNaturalDirt>250</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>12</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3132,6 +3195,7 @@
     <sWaterType>1</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
     <usCivilianPopulation>80</usCivilianPopulation>
+    <wealth>10</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3149,6 +3213,7 @@
     <sWaterType>2</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
     <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>10</wealth>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3271,6 +3336,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>100</usCivilianPopulation>
+    <wealth>20</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3286,6 +3352,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
     <usCivilianPopulation>200</usCivilianPopulation>
+    <wealth>25</wealth>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3353,6 +3420,7 @@
     <sWaterType>2</sWaterType>
     <usNaturalDirt>300</usNaturalDirt>
     <usCivilianPopulation>30</usCivilianPopulation>
+    <wealth>10</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -3488,6 +3556,7 @@
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>50</usCivilianPopulation>
+    <wealth>50</wealth>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
