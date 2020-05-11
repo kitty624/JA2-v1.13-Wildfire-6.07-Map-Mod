@@ -510,7 +510,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -739,7 +739,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -925,7 +925,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1125,7 +1125,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1177,7 +1177,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1576,7 +1576,7 @@
     <szExploredName>Desert, road</szExploredName>
     <szDetailedExploredName>Desert, road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>900</usNaturalDirt>
+    <usNaturalDirt>500</usNaturalDirt>
     <rainchance>20</rainchance>
     <sandstormchance>30</sandstormchance>
     <snowchance>0</snowchance>
@@ -1589,7 +1589,7 @@
     <szExploredName>Desert, road</szExploredName>
     <szDetailedExploredName>Desert, road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>900</usNaturalDirt>
+    <usNaturalDirt>500</usNaturalDirt>
     <rainchance>20</rainchance>
     <sandstormchance>40</sandstormchance>
     <snowchance>0</snowchance>
@@ -1654,7 +1654,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -1807,7 +1807,7 @@
     <szExploredName>Desert</szExploredName>
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>50</sandstormchance>
     <snowchance>0</snowchance>
@@ -1820,7 +1820,7 @@
     <szExploredName>Desert</szExploredName>
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <rainchance>10</rainchance>
     <sandstormchance>40</sandstormchance>
     <snowchance>0</snowchance>
@@ -1885,7 +1885,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2005,7 +2005,7 @@
     <szExploredName>SAM Site</szExploredName>
     <szDetailedExploredName>Desert, SAM Site</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>850</usNaturalDirt>
+    <usNaturalDirt>450</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <sRadioScanModifier>2</sRadioScanModifier>
     <rainchance>5</rainchance>
@@ -2023,7 +2023,7 @@
     <szExploredName>Desert</szExploredName>
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>60</sandstormchance>
     <snowchance>0</snowchance>
@@ -2036,7 +2036,7 @@
     <szExploredName>Desert</szExploredName>
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>60</sandstormchance>
     <snowchance>0</snowchance>
@@ -2193,7 +2193,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2207,7 +2207,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2249,7 +2249,7 @@
     <szExploredName>Desert</szExploredName>
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>70</sandstormchance>
     <snowchance>0</snowchance>
@@ -2262,7 +2262,7 @@
     <szExploredName>Tixa</szExploredName>
     <szDetailedExploredName>Tixa</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <sRadioScanModifier>1</sRadioScanModifier>
     <usCivilianPopulation>100</usCivilianPopulation>
@@ -2293,7 +2293,7 @@
     <szExploredName>Desert</szExploredName>
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>80</sandstormchance>
     <snowchance>0</snowchance>
@@ -2306,7 +2306,7 @@
     <szExploredName>Desert</szExploredName>
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>70</sandstormchance>
     <snowchance>0</snowchance>
@@ -2412,7 +2412,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>80</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2426,7 +2426,7 @@
     <szExploredName>Orta</szExploredName>
     <szDetailedExploredName>Orta Military Base</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
@@ -2441,7 +2441,7 @@
     <szExploredName>Swamp, road</szExploredName>
     <szDetailedExploredName>Swamp, road</szDetailedExploredName>
     <sWaterType>3</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>60</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2470,7 +2470,7 @@
     <szExploredName>Desert, road</szExploredName>
     <szDetailedExploredName>Desert, road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>900</usNaturalDirt>
+    <usNaturalDirt>500</usNaturalDirt>
     <rainchance>10</rainchance>
     <sandstormchance>50</sandstormchance>
     <snowchance>0</snowchance>
@@ -2483,7 +2483,7 @@
     <szExploredName>Desert, road</szExploredName>
     <szDetailedExploredName>Desert, road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>900</usNaturalDirt>
+    <usNaturalDirt>500</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>80</sandstormchance>
     <snowchance>0</snowchance>
@@ -2496,7 +2496,7 @@
     <szExploredName>Desert, road</szExploredName>
     <szDetailedExploredName>Desert, road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>900</usNaturalDirt>
+    <usNaturalDirt>500</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>70</sandstormchance>
     <snowchance>0</snowchance>
@@ -2509,7 +2509,7 @@
     <szExploredName>Desert, road</szExploredName>
     <szDetailedExploredName>Desert, road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>900</usNaturalDirt>
+    <usNaturalDirt>500</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>60</sandstormchance>
     <snowchance>0</snowchance>
@@ -2522,7 +2522,7 @@
     <szExploredName>Desert, road</szExploredName>
     <szDetailedExploredName>Desert, road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>900</usNaturalDirt>
+    <usNaturalDirt>500</usNaturalDirt>
     <rainchance>10</rainchance>
     <sandstormchance>50</sandstormchance>
     <snowchance>0</snowchance>
@@ -2535,7 +2535,7 @@
     <szExploredName>Desert, road</szExploredName>
     <szDetailedExploredName>Desert, road</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>900</usNaturalDirt>
+    <usNaturalDirt>500</usNaturalDirt>
     <rainchance>15</rainchance>
     <sandstormchance>40</sandstormchance>
     <snowchance>0</snowchance>
@@ -2628,7 +2628,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2642,7 +2642,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>65</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2695,7 +2695,7 @@
     <szExploredName>Desert</szExploredName>
     <szDetailedExploredName>Desert</szDetailedExploredName>
     <sWaterType>0</sWaterType>
-    <usNaturalDirt>1000</usNaturalDirt>
+    <usNaturalDirt>600</usNaturalDirt>
     <rainchance>5</rainchance>
     <sandstormchance>50</sandstormchance>
     <snowchance>0</snowchance>
@@ -2789,7 +2789,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
@@ -2858,7 +2858,7 @@
     <szExploredName>Meduna</szExploredName>
     <szDetailedExploredName>Meduna</szDetailedExploredName>
     <sWaterType>1</sWaterType>
-    <usNaturalDirt>450</usNaturalDirt>
+    <usNaturalDirt>350</usNaturalDirt>
     <usCivilianPopulation>100</usCivilianPopulation>
     <usCurfewValue>2</usCurfewValue>
     <wealth>10</wealth>
@@ -3030,7 +3030,7 @@
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
     <sWaterType>3</sWaterType>
-    <usNaturalDirt>500</usNaturalDirt>
+    <usNaturalDirt>400</usNaturalDirt>
     <rainchance>65</rainchance>
     <sandstormchance>0</sandstormchance>
     <snowchance>0</snowchance>
