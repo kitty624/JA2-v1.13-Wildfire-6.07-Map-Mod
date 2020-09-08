@@ -360,7 +360,7 @@
     <szDetailedUnexploredName>Farmland</szDetailedUnexploredName>
     <szExploredName>Farmland</szExploredName>
     <szDetailedExploredName>Farmland</szDetailedExploredName>
-    <sWaterType>0</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
     <wealth>1</wealth>
@@ -375,7 +375,7 @@
     <szDetailedUnexploredName>Farmland</szDetailedUnexploredName>
     <szExploredName>Farmland</szExploredName>
     <szDetailedExploredName>Farmland</szDetailedExploredName>
-    <sWaterType>0</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
     <wealth>1</wealth>
@@ -924,7 +924,7 @@
     <szDetailedUnexploredName>Swamp</szDetailedUnexploredName>
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
-    <sWaterType>1</sWaterType>
+    <sWaterType>3</sWaterType>
     <usNaturalDirt>400</usNaturalDirt>
     <rainchance>50</rainchance>
     <sandstormchance>0</sandstormchance>
@@ -1094,7 +1094,7 @@
     <szDetailedUnexploredName>Farmland</szDetailedUnexploredName>
     <szExploredName>Farmland</szExploredName>
     <szDetailedExploredName>Farmland</szDetailedExploredName>
-    <sWaterType>0</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>160</usNaturalDirt>
     <usCivilianPopulation>10</usCivilianPopulation>
     <wealth>1</wealth>
@@ -1454,7 +1454,7 @@
     <szDetailedUnexploredName>Grumm</szDetailedUnexploredName>
     <szExploredName>Grumm</szExploredName>
     <szDetailedExploredName>Grumm</szDetailedExploredName>
-    <sWaterType>3</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <usCivilianPopulation>150</usCivilianPopulation>
@@ -1682,7 +1682,7 @@
     <szDetailedUnexploredName>Grumm</szDetailedUnexploredName>
     <szExploredName>Grumm</szExploredName>
     <szDetailedExploredName>Grumm</szDetailedExploredName>
-    <sWaterType>3</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>100</usNaturalDirt>
     <usCurfewValue>1</usCurfewValue>
     <usCivilianPopulation>200</usCivilianPopulation>
@@ -2261,7 +2261,7 @@
     <szDetailedUnexploredName>Desert</szDetailedUnexploredName>
     <szExploredName>Tixa</szExploredName>
     <szDetailedExploredName>Tixa</szDetailedExploredName>
-    <sWaterType>0</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>600</usNaturalDirt>
     <usCurfewValue>2</usCurfewValue>
     <sRadioScanModifier>1</sRadioScanModifier>
@@ -2411,7 +2411,7 @@
     <szDetailedUnexploredName>Swamp</szDetailedUnexploredName>
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
-    <sWaterType>1</sWaterType>
+    <sWaterType>3</sWaterType>
     <usNaturalDirt>400</usNaturalDirt>
     <rainchance>80</rainchance>
     <sandstormchance>0</sandstormchance>
@@ -2627,7 +2627,7 @@
     <szDetailedUnexploredName>Swamp</szDetailedUnexploredName>
     <szExploredName>Swamp</szExploredName>
     <szDetailedExploredName>Swamp</szDetailedExploredName>
-    <sWaterType>1</sWaterType>
+    <sWaterType>3</sWaterType>
     <usNaturalDirt>400</usNaturalDirt>
     <rainchance>70</rainchance>
     <sandstormchance>0</sandstormchance>
@@ -2770,7 +2770,7 @@
     <szDetailedUnexploredName>Balime</szDetailedUnexploredName>
     <szExploredName>Balime</szExploredName>
     <szDetailedExploredName>Balime</szDetailedExploredName>
-    <sWaterType>3</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>150</usNaturalDirt>
     <usCivilianPopulation>150</usCivilianPopulation>
     <wealth>30</wealth>
@@ -3011,7 +3011,7 @@
     <szDetailedUnexploredName>Balime</szDetailedUnexploredName>
     <szExploredName>Balime</szExploredName>
     <szDetailedExploredName>Balime</szDetailedExploredName>
-    <sWaterType>2</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>200</usNaturalDirt>
     <usCivilianPopulation>80</usCivilianPopulation>
     <wealth>28</wealth>
@@ -3210,7 +3210,7 @@
     <szDetailedUnexploredName>Palmas</szDetailedUnexploredName>
     <szExploredName>Palmas</szExploredName>
     <szDetailedExploredName>Palmas</szDetailedExploredName>
-    <sWaterType>2</sWaterType>
+    <sWaterType>1</sWaterType>
     <usNaturalDirt>250</usNaturalDirt>
     <usCivilianPopulation>100</usCivilianPopulation>
     <wealth>10</wealth>
