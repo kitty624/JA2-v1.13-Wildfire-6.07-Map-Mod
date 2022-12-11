@@ -1,14 +1,19 @@
 
 # JA2 v1.13 Wildfire 6.07 (Map Mod)
 
-<p "left">
+<br />
+<br />
+<br />
+
+<p "center">
   <img src="Wildfire.png" alt="JA2 v1.13 WF 6.07 Map Mod">
 </p>
 
+<br />
+<br />
 
 > This is a map mod for use with JA2 v1.13, **_not_** the standalone game Wildfire  
-  
-   
+
 ### Preamble
 
 In the past, WF 6.07 has been hosted and updated  on a SVN, but that service stopped in 2022.   
