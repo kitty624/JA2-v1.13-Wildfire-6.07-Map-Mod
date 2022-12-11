@@ -1,25 +1,48 @@
 This version contains the following Wildfire 6.07 content for the English Version of Jagged Alliance 2:
+
 - WF maps
 
+-----
+
 IMPORTANT! Jagged Alliance 1.13 stable 4870 will not work with the WF6.07 maps because WF6.07 contains data which is not recognized by the old JA2.exe.
-You will need to use the latest SCI (exe version 8309 or higher). You can use the 7609 stable version but you will need to rename the following files in Data-WildFire6.07\TableData\Map:
+
+You will need to use the latest SCI (exe version 8309 or higher). 
+
+-----
+
+You can use the 7609 stable version, 
+but you will need to rename the following files in Data-WildFire6.07\TableData\Map:
+
 - FacilityTypes.xml.bak to FacilityTypes.xml
 - SectorNames.xml.bak to SectorNames.xml
 - SamSites.xml.bak to SamSites.xml
 
+This will overwrite existing files. You may wanna make a backup-copy to preserve them for a later use with latest SCI (instead of 7609)
+
+-----
+
 Downloads for latest SCI (Single Click Installer):
-http://thepit.ja-galaxy-forum.com/index.php?t=thread&frm_id=282&
 
-Download for Wildfire Maps Mod 6.07 (use SVN client like Tortoise SVN):
-https://ja2svn.no-ip.org/source/ja2/branches/Wanne/JA2 1.13 Wildfire 6.06 - Maps MOD
+http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=24648&start=0& 
 
-The "Data-WildFire6.06" folder on this SVN may be removed in the future. It contains older outdated maps and other files
+("How to get: latest 1.13, 7609, feature-descriptions and more" at Bear's Pit Forum, provides download-links)
 
+-----
+
+
+Download for Wildfire Maps Mod 6.07 
+
+https://github.com/kitty624/JA2-v1.13-Wildfire-6.07-Map-Mod
+
+Click on "Code", select "Download as zip" in dropdown
+
+-----
 
 Thanks to Jax(Jelinobas) and Smeagol for providing this MOD!
 
+Thanks to Silversurfer for maintaining the SVN version for so long (until 2020)!
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 Q: Where should I report any bugs? Do you even want feedback?
 A: Do we want feedback??? yeah, of course we want feedback. We're not doing all this work for hard money, 
@@ -30,7 +53,7 @@ If you think something is brilliant, tell us. We like to be flattered.
 
 Feel free to discus the mod in one of the following forums we regularly check:
 
-http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=19409&goto=346125&#msg_346125
+http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=19409&goto=346125&#msg_346125 (WF on Bear's Pit Forum)
 
 We are glad to hear about any strange findings and like to hear your feedback. 
 
@@ -39,19 +62,23 @@ Okay, that's it... We hope you all enjoy our mod. Happy Hunting. :-)
 Greetings
 Jax(Jelinobas) and Smeagol
 
----------------------------------------------------------------------------------------------------------------------------------------------------
-
+-----
 
 Installation:
-1. Install Jagged Alliance 2.
+
+1. Install original Jagged Alliance 2.
 2. Download latest SCI and copy its content to JA2 game directory. Overwrite when asked.
-3. Download WF maps 6.07 mod from SVN and copy its content to your JA2 game directory (except for the Data-WildFire6.06 folder which is not needed).
+3. Download WF 6.07 (Map Mod) from gitHub and copy its content to your JA2 game directory (except for the Data-WildFire6.06 folder which is not needed).
 4. Modify Ini settings if you like.
 5. Play the game.
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+-----
 
 Compatibility:
 
 If you want to use this map mod with "Arulco Folding Stock" mod or "1.13 Stock Data Overhaul" you will need to use the correct "Ja2Set.dat.xml".
 I prepared example files "Ja2Set.dat.xml.AFS" and "Ja2Set.dat.xml.Overhaul" which you can use. Just rename the corresponding one to "Ja2Set.dat.xml".
+
+-----
+
+edit: 10.12.2022 kitty
