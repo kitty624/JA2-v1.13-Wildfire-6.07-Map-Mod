@@ -1,20 +1,12 @@
 
 # JA2 v1.13 Wildfire 6.07 (Map Mod)
 
-
-
-
-
-<p align="center">
+<p "left">
   <img src="Wildfire.png" alt="JA2 v1.13 WF 6.07 Map Mod">
 </p>
 
 
-
-
-
 > This is a map mod for use with JA2 v1.13, **_not_** the standalone game Wildfire  
-  
   
    
 ### Preamble
