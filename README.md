@@ -33,15 +33,13 @@ In case of any issues, look at [Reports](#Reports) or [Participation](#Participa
 - [WF 6.07 (map mod)](https://github.com/kitty624/JA2-v1.13-Wildfire-6.07-Map-Mod/archive/refs/heads/main.zip "WF 6.07 as zip from this gitHub repository")  
 WF 6.07 as zip from this gitHub repository
 
-- [JA2 v1.13 (latest) monthly SCI](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=24648&start=0& "Stand-in until Release Repo is set up")  
-For the time being, Bear's Pit Forum "How-to-get..."-thread.  
-A gitHub repository for releases is w.i.p., the link will be updated when finished.
+- [JA2 v1.13](https://github.com/1dot13/source/tags "Download 1.13 straight from Github") 
 
 
 ### Installation
 
 1. Install original Jagged Alliance 2
-2. Download latest SCI and copy its content to JA2 game directory. Overwrite when asked.
+2. Download latest 1.13 release and extract its content to JA2 game directory. Overwrite when asked.
 3. Download WF 6.07 (Map Mod) from gitHub and copy its content to your JA2 game directory 
 4. Modify Ini settings if you like.
 5. Play the game.
