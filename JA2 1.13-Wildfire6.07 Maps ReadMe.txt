@@ -82,5 +82,10 @@ I prepared example files "Ja2Set.dat.xml.AFS" and "Ja2Set.dat.xml.Overhaul" whic
 
 -----
 
+Desktop Background:
+
+the folder "Extras" does contain alternative desktop backgrounds
+
+------
 
 edit: 10.12.2022 kitty
