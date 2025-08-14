@@ -1,0 +1,48 @@
+Alternative Desktop Backgrounds
+*******************************
+
+What's that?
+------------
+
+an assortment of files which can be used to replace the picture used for the desktop background in JA2-1.13 or mods of it
+
+some are likely a thematic fit for JA2-1.13 and mods, others may rather file under weird or funny
+
+check the Overview pictures to get a preview how it'll look ingame
+
+
+Why?
+----
+
+many users reported to not like the picture used for desktop background in the WF-6.07 map mod 
+
+and just to generaly offer more choice
+
+
+How to use?
+-----------
+
+decide on one of the files named "desktop.pcx" in the respective subdirectories
+
+
+put that file ("desktop.pcx") into Data-YourMod\Laptop and replaces the existing file of the same name
+
+
+examples:
+
+for unmodded 1.13:
+
+Data-1.13\Laptop\desktop.pcx
+
+or
+
+for Wildfire 6.07 (Map Mod):
+
+Data-WildFire6.07\Laptop\desktop.pcx
+
+
+***
+
+2025-08-14
+
+kitty
