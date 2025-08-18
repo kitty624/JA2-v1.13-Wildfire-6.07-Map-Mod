@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FACILITYTYPES>
+
+	<FACILITYTYPE>
+		<ubIndex>1</ubIndex>
+		<szFacilityName>Госпиталь</szFacilityName>
+		<szFacilityShortName>Госпиталь</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>DOCTOR</ubAssignmentType>
+			<szTooltipText>Используйте возможности госпиталя и его современное оборудование для спасения жизни ваших раненых бойцов.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_MEDICAL</ubAssignmentType>
+			<szTooltipText>Практикуйте искусство медицины на местных жителях. Квалифицированная медицинская помощь повышает ваш рейтинг доверия по всей стране. Просто... постарайтесь никого не убить!</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_MEDICAL</ubAssignmentType>
+			<szTooltipText>Тренируйте других наемников в искусстве медицины при помощи местных пациентов.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_MEDICAL</ubAssignmentType>
+			<szTooltipText>Изучайте искусство медицины при помощи местных пациентов. Более эффективно, чем изучение в полевых условиях, но постарайтесь не подхватить какую-нибудь заразу. И постарайтесь никого не убить, хорошо?</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PATIENT</ubAssignmentType>
+			<szTooltipText>Удобные больничные койки и обилие медицинского оборудования помогут ускорить выздоровление ваших раненых наемников. Впрочем, клиника, полная больных людей,  - не самое лучшее место для отдыха в течение длительного времени.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>2</ubIndex>
+		<szFacilityName>Убогая пивнушка</szFacilityName>
+		<szFacilityShortName>Пивная</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Вы можете выпить в местном баре! Местные жители могут присоединиться к кутежу. В ночное время вы можете быть вовлечены в дружескую потасовку и получить травму.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+		<ASSIGNMENT>
+			<ubAssignmentType>GATHER_RUMOURS</ubAssignmentType>
+			<szTooltipText>Пропустите стаканчик в баре... Ага, разбежались! Просто покупайте другим выпивку и немедленно сообщайте все, что они разболтают.</szTooltipText>
+		</ASSIGNMENT>
+
+	<FACILITYTYPE>
+		<ubIndex>3</ubIndex>
+		<szFacilityName>Тюремный комплекс</szFacilityName>
+		<szFacilityShortName>Тюрьма</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Назначьте охранников в эту тюрьму. Поддержка видимости правопорядка (или, по крайней мере, наказаний) будет стимулировать арульканцев оставаться на вашей стороне. Местным жителям подобные меры не понравятся, и ваши охранники также не будут испытывать восторга. Это опасная работа.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>INTERROGATE_PRISONERS</ubAssignmentType>
+			<szTooltipText>Ваши бойцы могут здесь допрашивать военнопленных. Заключенные могут присоединиться к вам или предоставить вам полезную информацию.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+		<ASSIGNMENT>
+			<ubAssignmentType>PRISON_SNITCH</ubAssignmentType>
+			<szTooltipText>Выдайте себя за одного из заключенных, чтобы втереться к ним в доверие и выведать информацию или предотвратить мятеж.</szTooltipText>
+		</ASSIGNMENT>
+
+	<FACILITYTYPE>
+		<ubIndex>4</ubIndex>
+		<szFacilityName>Торговый порт</szFacilityName>
+		<szFacilityShortName>Порт</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Назначив ваших бойцов работать в головном офисе порта, вы можете максимизировать эффективность экспорта полезных ископаемых, после чего ваш доход от шахт будет расти. Это хороший способ завоевать доверие местных жителей, но работа с тяжелой техникой в доках таит в себе некоторую опасность.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_STRENGTH</ubAssignmentType>
+			<szTooltipText>Накачайте себе мускулы, разгружая и загружая корабельные грузы. Это честная работа, которая позволит заработать немного деньжат, но постарайтесь не перетрудиться.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>5</ubIndex>
+		<szFacilityName>Малый аэропорт</szFacilityName>
+		<szFacilityShortName>Аэропорт</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Бумажную работу этого аэропорта можно оптимизировать. Назначив сюда пару дополнительных рабочих, вы можете отправлять часть добычи ваших шахт лучшим ювелирам по всему миру, что повысит доход. Местные жители с уважением отнесутся к такой работе. Просто помните, что выхлопные газы самолетов не всегда полезны для вашего здоровья.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_STRENGTH</ubAssignmentType>
+			<szTooltipText>Потратьте некоторое время на загрузку и разгрузку самолетов. Это полезно для вашей мускулатуры, но помните про возможные травмы, связанные с этой работой.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>6</ubIndex>
+		<szFacilityName>Завод комплектующих</szFacilityName>
+		<szFacilityShortName>Завод</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>На станках этого завода можно изготовить любые запчасти. Такая возможность значительно увеличит вашу эффективность при ремонте вещей, если, конечно, вы готовы платить за металл. Очевидно, что работа в непроветриваемом и полном народа заводе не может не сказаться на вашем здоровье.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_VEHICLE</ubAssignmentType>
+			<szTooltipText>На станках этого завода можно изготовить любые запчасти. Такая возможность значительно увеличит вашу эффективность при ремонте вещей, если, конечно, вы готовы платить за металл. Очевидно, что работа в непроветриваемом и полном народа заводе не может не сказаться на вашем здоровье.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ROBOT</ubAssignmentType>
+			<szTooltipText>На станках этого завода можно изготовить любые запчасти. Такая возможность значительно увеличит вашу эффективность при ремонте вещей, если, конечно, вы готовы платить за металл. Очевидно, что работа в непроветриваемом и полном народа заводе не может не сказаться на вашем здоровье.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>7</ubIndex>
+		<szFacilityName>Военные казармы</szFacilityName>
+		<szFacilityShortName>Казармы</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Обычная казарма, ничего лишнего: кровати, кровати и ещё раз кровати. Однако всё равно это лучше отдыха на улице!</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>8</ubIndex>
+		<szFacilityName>Военный штаб</szFacilityName>
+		<szFacilityShortName>Штаб</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Штаб оснащён всевозможным электронным оборудованием, разработанным для концентрации и обработки стратегической информации по всей стране. Это поможет вам организовать свою защиту, а также сбор информации о вражеских передвижениях вне городов. Возможно, вы даже научитесь кое-чему.</szTooltipText>
+		</ASSIGNMENT>
+
+		<ASSIGNMENT>
+			<ubAssignmentType>SPREAD_PROPAGANDA_GLOBAL</ubAssignmentType>
+			<szTooltipText>Возьмите под контроль местные информационные каналы и управляйте потоком новостей во всем регионе.</szTooltipText>
+		</ASSIGNMENT>
+
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_LEADERSHIP</ubAssignmentType>
+			<szTooltipText>Это военное заведение предназначено для помощи в обучении новых офицеров.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_LEADERSHIP</ubAssignmentType>
+			<szTooltipText>Обучаться искусству быть лидером гораздо проще в заведении, предназначенном именно для этой цели.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>9</ubIndex>
+		<szFacilityName>Полигон</szFacilityName>
+		<szFacilityShortName>Стрельбище</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_MARKSMANSHIP</ubAssignmentType>
+			<szTooltipText>Это место отлично подходит для того, чтобы проводить учебные стрельбы для повышения меткости ваших людей. Постарайтесь держаться подальше от линии огня.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_MARKSMANSHIP</ubAssignmentType>
+			<szTooltipText>С поднимающимися и опускающимися мишенями и будками для стрельбы это стрельбище - самое лучшее место, чтобы научиться меткой стрельбе. Конечно, освоить навыки безопасного обращения с оружием будет сложновато.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_MARKSMANSHIP</ubAssignmentType>
+			<szTooltipText>Почему бы не потратить немного времени на оттачивание вашей меткости? Выставленные мишени просто притягивают вас пострелять. Это место уделывает одной левой стрельбу по диким банкам где-то за городом.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>10</ubIndex>
+		<szFacilityName>Служба A.C.A</szFacilityName>
+		<szFacilityShortName>A.C.A</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Возможно, местные жители согласятся разведать для вас местность в округе. Вы можете получать от них сведения, которые помогут в прогнозировании действий врага в близлежащей местности. Жители будут чувствовать себе безопаснее, а вы, может быть, сумеете научиться чему-нибудь в области стратегической координации.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>SPREAD_PROPAGANDA</ubAssignmentType>
+      		<szTooltipText>Превратите этот маленький офис в хорошо смазанную машину пропаганды, введите цензуру на плохие новости и представляйте действия вашей команды в самом лучшем свете.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>11</ubIndex>
+		<szFacilityName>ПВО</szFacilityName>
+		<szFacilityShortName>ПВО</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Если вы назначите ваших бойцов работать здесь, то можете быть уверены, что небо над вашей головой будет чисто от самолетов врага. А те, кто летят в "ваших" самолетах, будут чувствовать себе гораздо спокойнее.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>12</ubIndex>
+		<szFacilityName>Шахта</szFacilityName>
+		<szFacilityShortName>Шахта</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Главный шахтер ищет себе помощников для координации работы шахты. Это, очевидно, повысит доход от шахты. Единственно, помните, что работа в шахте небезопасна и небезвредна для здоровья.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>Любого, кто знает как установить взрывчатку, шахтёры примут с распростёртыми объятиями. Увеличивает эффективность обучения взрывному делу. При условии, что вы знаете, как умудриться не взорвать себя при этом.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>13</ubIndex>
+		<szFacilityName>Бордель</szFacilityName>
+		<szFacilityShortName>Бордель</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Вот это да! Вы только посмотрите на этих дамочек!</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>14</ubIndex>
+		<szFacilityName>Малая церковь</szFacilityName>
+		<szFacilityShortName>Церковь</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Торжественный час молитвы и преданности вере в тихой небольшой церкви может помочь поднять чей-то дух. Также это могло бы убедить местных жителей, что вы уважаете их образ жизни.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>15</ubIndex>
+		<szFacilityName>Боксёрский клуб</szFacilityName>
+		<szFacilityShortName>Клуб</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Отведайте напитков в местной пивной! Начните пару драк, если хотите. Отлично поднимает мораль ваших бойцов, но жителям Арулько будет трудно рассматривать вас в качестве положительного образа.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_STRENGTH</ubAssignmentType>
+			<szTooltipText>Здесь имеется много гимнастического оборудования, которое только и ждёт, чтобы им воспользовались. Отличный способ получить комплексную разминку, которая могла бы значительно улучшить вашу физическую форму. Однако помните про такую вещь, как перенапряжение.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>16</ubIndex>
+		<szFacilityName>Национальный музей</szFacilityName>
+		<szFacilityShortName>Музей</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Разбираетесь в искусстве? Возможно, вам стоит поработать гидом в этом музее. Местные очень положительно воспримут такое дело, к тому же лучшего места для небольшого культурного образования и не найти. Постарайтесь только не разбить ничего.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Посещение музея поможет очень хорошо расслабиться и восстановить силы, к тому же всегда есть шанс научиться чему-нибудь. Однако если вы разобьете что-нибудь, никто не обрадуется.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>17</ubIndex>
+		<szFacilityName>Лаборатория</szFacilityName>
+		<szFacilityShortName>Лаборатория</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>В этой лаборатории находятся одни из самых передовых видов оборудования, что вы когда-либо видели! Это отличное место для разных странных экспериментов по всем отраслям науки. Однако работа с едкими и взрывоопасными материалами таит в себе большой риск.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>Настоящий ученый всегда готов передать свои знания. Почему бы не поучить ваших коллег-наемников различным наукам? Постарайтесь только быть где-нибудь подальше, когда они смешают воду и литий.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>Эксперимент - лучший способ обучаться наукам, а это место как раз оборудовано для проведения разных серьезных экспериментов. Интересно, что будет, если смешать серную и азотную кислоты?</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>18</ubIndex>
+		<szFacilityName>Автосвалка</szFacilityName>
+		<szFacilityShortName>Свалка</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>Это место практически завалено запасными частями ко всякой всячине. Такое обилие комплектующих значительно ускорит ремонт ваших вещей. Однако ходьба по кучам больших острых металлических обломков может быть весьма опасна для здоровья.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_VEHICLE</ubAssignmentType>
+			<szTooltipText>Это место практически завалено запасными частями ко всякой всячине. Такое обилие комплектующих значительно ускорит ремонт ваших вещей. Однако ходьба по кучам больших острых металлических обломков может быть весьма опасна для здоровья.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ROBOT</ubAssignmentType>
+			<szTooltipText>Это место практически завалено запасными частями ко всякой всячине. Такое обилие комплектующих значительно ускорит ремонт ваших вещей. Однако ходьба по кучам больших острых металлических обломков может быть весьма опасна для здоровья.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>19</ubIndex>
+		<szFacilityName>Морской курорт</szFacilityName>
+		<szFacilityShortName>Пляж</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Солнце, песок, прибой... Отдохнуть никогда не помешает. Да и отдых здесь гораздо приятнее сна в лесу под дождём. Однако людям Арулько не понравится, что вы отдыхаете под солнышком вместо того, чтобы сражаться за их свободу.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PATIENT</ubAssignmentType>
+			<szTooltipText>Предположим, что вас ранили. Где бы вы хотели, чтобы вас лечили - в грязной луже или на удобном шезлонге на пляже? Однако будьте осторожны, так как люди Арулько могут подумать, что вы просто валяете дурака за их счет.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_HEALTH</ubAssignmentType>
+			<szTooltipText>Бег по пляжу, долгие заплывы в море, загорание на солнце - все это заставляет вас чувствовать себе здоровее!</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_HEALTH</ubAssignmentType>
+			<szTooltipText>Пляж - отличное место, чтобы заставить ваших людей заняться физподготовкой. Для их же блага. А теперь - упал-отжался двадцать раз, а затем сбегай и принеси мне банановый дайкири.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_HEALTH</ubAssignmentType>
+			<szTooltipText>Если вас гоняют тренировками до седьмого пота, не лучше ли это делать на отличном пляже в солнечную погоду?</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>20</ubIndex>
+		<szFacilityName>Еда и ночлег</szFacilityName>
+		<szFacilityShortName>Мотель</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Этот мотель предлагает несколько тихих комнат, чистые постели и здоровый завтрак из местных продуктов.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PATIENT</ubAssignmentType>
+			<szTooltipText>Чистая постель и обильное питание помогут вашим наемникам быстрее выздороветь.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>21</ubIndex>
+		<szFacilityName>Убежище повстанцев</szFacilityName>
+		<szFacilityShortName>Убежище повстанцев</szFacilityShortName>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>22</ubIndex>
+		<szFacilityName>Ферма</szFacilityName>
+		<szFacilityShortName>Ферма</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Помогите местным фермерам в их ежедневной работе - заработаете немного деньжат и накачаете мускулы. Работа, правда, тяжелая и довольно скучная.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>23</ubIndex>
+		<szFacilityName>Казармы</szFacilityName>
+		<szFacilityShortName>Казармы</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Обычная казарма, ничего лишнего: кровати, кровати и ещё раз кровати. Однако всё равно это лучше отдыха на улице!</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>24</ubIndex>
+		<szFacilityName>Маленькая мастерская</szFacilityName>
+		<szFacilityShortName>Мастерская</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>Починку вещей осуществлять гораздо удобнее в мастерской, нежели в полевых условиях.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>25</ubIndex>
+		<szFacilityName>Жилые дома</szFacilityName>
+		<szFacilityShortName>Жилой дом</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>После завоевания доверия местных жителей некоторые из них решились предоставить вам кров. В их домах только базовые удобства, но это все равно гораздо лучше отдыха на улице.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PATIENT</ubAssignmentType>
+			<szTooltipText>Чистая постель и обильное питание помогут вашим наемникам быстрее выздороветь.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>26</ubIndex>
+		<szFacilityName>Роскошные дома</szFacilityName>
+		<szFacilityShortName>Роскошный дом</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Похоже, эти классные дома заброшены. Хмм, какие удобные кровати...</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PATIENT</ubAssignmentType>
+			<szTooltipText>Чистая постель и обильное питание помогут вашим наемникам быстрее выздороветь.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>27</ubIndex>
+		<szFacilityName>Заброшенная шахта</szFacilityName>
+		<szFacilityShortName>Заброшенная шахта</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>В этой заброшенной шахте очень удобно проводить тренировки по взрывному делу.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>28</ubIndex>
+		<szFacilityName>ПВО</szFacilityName>
+		<szFacilityShortName>ПВО</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Если вы назначите ваших бойцов работать здесь, то можете быть уверены, что небо над вашей головой будет чисто от самолетов врага. А те, кто летят в "ваших" самолетах, будут чувствовать себе гораздо спокойнее. Если бы еще в здешней пустыне не было так жарко...</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>29</ubIndex>
+		<szFacilityName>Казармы</szFacilityName>
+		<szFacilityShortName>Казармы</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Обычная казарма, ничего лишнего: кровати, кровати и ещё раз кровати. Однако всё равно это лучше отдыха на улице! Если бы еще в здешней пустыне не было так жарко...</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>30</ubIndex>
+		<szFacilityName>Маленькая мастерская</szFacilityName>
+		<szFacilityShortName>Мастерская</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>Починку вещей осуществлять гораздо удобнее в мастерской, нежели в полевых условиях. Если бы еще в здешней пустыне не было так жарко...</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>31</ubIndex>
+		<szFacilityName>Военная тюрьма</szFacilityName>
+		<szFacilityShortName>Тюрьма</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Назначьте охранников в эту тюрьму. Поддержка видимости правопорядка (или, по крайней мере, наказаний) будет стимулировать арульканцев оставаться на вашей стороне. Местным жителям подобные меры не понравятся, и ваши охранники также не будут испытывать восторга. Это опасная работа.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>INTERROGATE_PRISONERS</ubAssignmentType>
+			<szTooltipText>Ваши бойцы могут здесь допрашивать военнопленных. Заключенные могут присоединиться к вам или предоставить вам полезную информацию.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>32</ubIndex>
+		<szFacilityName>Городская тюрьма</szFacilityName>
+		<szFacilityShortName>Тюрьма</szFacilityShortName>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Назначьте охранников в эту тюрьму. Поддержка видимости правопорядка (или, по крайней мере, наказаний) будет стимулировать арульканцев оставаться на вашей стороне. Местным жителям подобные меры не понравятся, и ваши охранники также не будут испытывать восторга. Это опасная работа.</szTooltipText>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>INTERROGATE_PRISONERS</ubAssignmentType>
+			<szTooltipText>Ваши бойцы могут здесь допрашивать военнопленных. Заключенные могут присоединиться к вам или предоставить вам полезную информацию.</szTooltipText>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+	
+</FACILITYTYPES>
