@@ -548,7 +548,7 @@ function HandleSectorTacticalEntry( sSectorX, sSectorY, bSectorZ, fHasEverBeenPl
 				CreateCivilian(10944, CivGroup.RADAR_TECHNICIAN_GROUP, -1, Bodytype.REGMALE, Vest.GREYVEST, Pants.GREENPANTS, -1, -1, 210, 8, -1, -1)
 			-- Drassen SAM
 			elseif ( sSectorX == 15 and sSectorY == SectorY.MAP_ROW_D ) then
-				CreateCivilian(11297, CivGroup.RADAR_TECHNICIAN_GROUP, -1, Bodytype.MANCIV, Vest.GREYVEST, Pants.GREENPANTS, -1, -1, 210, 8, -1, -1)
+				CreateCivilian(17028, CivGroup.RADAR_TECHNICIAN_GROUP, -1, Bodytype.MANCIV, Vest.GREYVEST, Pants.GREENPANTS, -1, -1, 210, 8, -1, -1)
 			-- chitzena SAM
 			elseif ( sSectorX == 2 and sSectorY == SectorY.MAP_ROW_D ) then
 				CreateCivilian(10675, CivGroup.RADAR_TECHNICIAN_GROUP, -1, Bodytype.REGFEMALE, Vest.GREYVEST, Pants.GREENPANTS, -1, -1, 210, 635, -1, -1)
