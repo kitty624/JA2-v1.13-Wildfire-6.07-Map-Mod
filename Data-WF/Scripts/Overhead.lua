@@ -2205,7 +2205,7 @@ function AddPhotoData( sSectorX, sSectorY, bSectorZ, sGridNo, bLevel, ubPhotogra
 				
 				end
 				
-			if ((room == 30) or (room == 31) or (room == 32) or (room == 33)) then
+			elseif ((room == 30) or (room == 31) or (room == 32) or (room == 33)) then
 			
 				if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ORTA_MANUFACTURING) < PhotoFlag.TAKEN ) then
 				
@@ -3157,5 +3157,6 @@ end
 function HandleNPCMerchantQuote(sSectorX, sSectorY, bSectorZ, ubMerchantID, ubBodyType, usQuoteNum )
 
 	
+
 
 end
