@@ -444,6 +444,55 @@
 				<ubRange>10</ubRange>
 			</MORALE>
 		</ASSIGNMENT>
+		<PRODUCTIONLINE>
+			<!-- create 7.62x39mm Box AP -->
+			<usItemToCreate>1446</usItemToCreate>
+			<sMinutesRequired>180</sMinutesRequired>
+			<sGridNo_Creation>19760</sGridNo_Creation>
+			<sHourlyCost>70</sHourlyCost>
+			<usOptional_LoyaltyRequired>35</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create 7.62x39mm Box HP -->
+			<usItemToCreate>1447</usItemToCreate>
+			<sMinutesRequired>180</sMinutesRequired>
+			<sGridNo_Creation>19759</sGridNo_Creation>
+			<sHourlyCost>50</sHourlyCost>
+			<usOptional_LoyaltyRequired>35</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create 7.62x39mm Box Tracer -->
+			<usItemToCreate>1448</usItemToCreate>
+			<sMinutesRequired>180</sMinutesRequired>
+			<sGridNo_Creation>19758</sGridNo_Creation>
+			<sHourlyCost>100</sHourlyCost>
+			<usOptional_LoyaltyRequired>35</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create 7.62x39mm Box Match -->
+			<usItemToCreate>1449</usItemToCreate>
+			<sMinutesRequired>180</sMinutesRequired>
+			<sGridNo_Creation>19757</sGridNo_Creation>
+			<sHourlyCost>150</sHourlyCost>
+			<usOptional_LoyaltyRequired>35</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create 7.62x39mm Box Cold -->
+			<usItemToCreate>1451</usItemToCreate>
+			<sMinutesRequired>180</sMinutesRequired>
+			<sGridNo_Creation>19756</sGridNo_Creation>
+			<sHourlyCost>80</sHourlyCost>
+			<usOptional_LoyaltyRequired>35</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create 7.62x39mm Box HP Cold -->
+			<szProductionName>7.62x39 Box HP C</szProductionName> <!-- custom text, because the item text is very long ;-) -->
+			<usItemToCreate>1452</usItemToCreate>
+			<sMinutesRequired>180</sMinutesRequired>
+			<sGridNo_Creation>19755</sGridNo_Creation>
+			<sHourlyCost>60</sHourlyCost>
+			<usOptional_LoyaltyRequired>35</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
 	</FACILITYTYPE>
 
 	<FACILITYTYPE>
@@ -1058,6 +1107,49 @@
 				<ubRange>40</ubRange>
 			</INJURY>
 		</ASSIGNMENT>
+		<PRODUCTIONLINE>
+			<!-- Rocket Rifle -->
+			<szAdditionalRequirementTips> - Requires storage access</szAdditionalRequirementTips>
+			<usItemToCreate>55</usItemToCreate>
+			<sMinutesRequired>600</sMinutesRequired>
+			<sGridNo_Creation>17023</sGridNo_Creation>
+			<sHourlyCost>700</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- Auto Rocket Rifle -->
+			<usItemToCreate>65</usItemToCreate>
+			<sMinutesRequired>720</sMinutesRequired>
+			<sGridNo_Creation>17023</sGridNo_Creation>
+			<sHourlyCost>700</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- Minirockets, AP -->
+			<usItemToCreate>111</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>17026</sGridNo_Creation>
+			<sHourlyCost>350</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- Minirockets, HE -->
+			<usItemToCreate>112</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>17027</sGridNo_Creation>
+			<sHourlyCost>350</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- Minirockets, HEAP -->
+			<usItemToCreate>113</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>17028</sGridNo_Creation>
+			<sHourlyCost>350</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- Minirockets, Cryo -->
+			<usItemToCreate>1738</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>17029</sGridNo_Creation>
+			<sHourlyCost>1000</sHourlyCost>
+		</PRODUCTIONLINE>
 	</FACILITYTYPE>
 
 	<FACILITYTYPE>
@@ -1612,6 +1704,388 @@
 			<CONDITIONS>
 			</CONDITIONS>
 		</ASSIGNMENT>
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>33</ubIndex>
+		<szFacilityName>T-Shirt Factory</szFacilityName>
+		<szFacilityShortName>Factory</szFacilityShortName>
+		<ubTotalStaffLimit>0</ubTotalStaffLimit>
+		<PRODUCTIONLINE>
+			<!-- create string -->
+			<szAdditionalRequirementTips> - Requires: Doreen quest</szAdditionalRequirementTips>
+			<usItemToCreate>311</usItemToCreate>
+			<sMinutesRequired>10</sMinutesRequired>
+			<sGridNo_Creation>6153</sGridNo_Creation>
+			<requires_staff>0</requires_staff>
+			<sHourlyCost>2</sHourlyCost>
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create rag -->
+			<usItemToCreate>1022</usItemToCreate>
+			<sMinutesRequired>25</sMinutesRequired>
+			<sGridNo_Creation>5678</sGridNo_Creation>
+			<sHourlyCost>6</sHourlyCost>
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Surgical mask from string + rag -->
+			<usItemToCreate>1710</usItemToCreate>
+			<sMinutesRequired>35</sMinutesRequired>
+			<sGridNo_Creation>6480</sGridNo_Creation>
+			<sHourlyCost>4</sHourlyCost>			
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Arulco T-Shirt from string + rag (2x) -->
+			<usItemToCreate>194</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>6320</sGridNo_Creation>
+			<sHourlyCost>7</sHourlyCost>			
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Deidranna T-Shirt from string + rag (2x) -->
+			<usItemToCreate>195</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>6160</sGridNo_Creation>
+			<sHourlyCost>7</sHourlyCost>
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create White Shirt (Civ Disguise) from string + rag (2x) -->
+			<usItemToCreate>1612</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>6481</sGridNo_Creation>
+			<sHourlyCost>20</sHourlyCost>
+			<usOptional_LoyaltyRequired>40</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Blue Jeans (Civ Disguise) from string + rag (2x) -->
+			<usItemToCreate>1619</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>321</sGridNo_Creation>
+			<sHourlyCost>20</sHourlyCost>
+			<usOptional_LoyaltyRequired>40</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- we have to build an upgrade before we can create uniforms -->
+			<szProductionName>Upgrade</szProductionName>
+			<sMinutesRequired>181</sMinutesRequired>
+			<sHourlyCost>100</sHourlyCost>
+			<usOptional_LoyaltyRequired>80</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Woodland Boonie Hat from string (2x) + rag (2x) + WL camo kit -->
+			<szAdditionalRequirementTips> - Uniform requires upgrade</szAdditionalRequirementTips>
+			<usItemToCreate>285</usItemToCreate>
+			<sMinutesRequired>200</sMinutesRequired>
+			<sGridNo_Creation>6161</sGridNo_Creation>
+			<sHourlyCost>25</sHourlyCost>
+			<usOptional_LoyaltyRequired>80</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>205</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Woodland BDU Jacket from string (3x) + rag (3x) + WL camo kit -->
+			<szAdditionalRequirementTips> - Uniform requires upgrade</szAdditionalRequirementTips>
+			<usItemToCreate>284</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>6163</sGridNo_Creation>
+			<sHourlyCost>25</sHourlyCost>
+			<usOptional_LoyaltyRequired>80</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>205</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Woodland BDU Pants from string (3x) + rag (3x) + WL camo kit -->
+			<szAdditionalRequirementTips> - Uniform requires upgrade</szAdditionalRequirementTips>
+			<usItemToCreate>1766</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>6164</sGridNo_Creation>
+			<sHourlyCost>25</sHourlyCost>
+			<usOptional_LoyaltyRequired>80</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>205</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Desert BDU Jacket from string (3x) + rag (3x) + Desert camo kit -->
+			<szAdditionalRequirementTips> - Uniform requires upgrade</szAdditionalRequirementTips>
+			<usItemToCreate>1769</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>6323</sGridNo_Creation>
+			<sHourlyCost>25</sHourlyCost>
+			<usOptional_LoyaltyRequired>80</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1028</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Desert BDU Pants from string (3x) + rag (3x) + Desert camo kit -->
+			<usItemToCreate>1767</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>6324</sGridNo_Creation>
+			<sHourlyCost>25</sHourlyCost>
+			<usOptional_LoyaltyRequired>80</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1028</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Urban BDU Jacket from string (3x) + rag (3x) + Urban camo kit -->
+			<szAdditionalRequirementTips> - Uniform requires upgrade</szAdditionalRequirementTips>
+			<usItemToCreate>1770</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>6483</sGridNo_Creation>
+			<sHourlyCost>25</sHourlyCost>
+			<usOptional_LoyaltyRequired>80</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1027</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Urban BDU Pants from string (3x) + rag (3x) + Urban camo kit -->
+			<szAdditionalRequirementTips> - Uniform requires upgrade</szAdditionalRequirementTips>
+			<usItemToCreate>1768</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>6484</sGridNo_Creation>
+			<sHourlyCost>25</sHourlyCost>
+			<usOptional_LoyaltyRequired>80</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1027</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>34</ubIndex>
+		<szFacilityName>Hicks Farm</szFacilityName>
+		<szFacilityShortName>Farm</szFacilityShortName>
+		<ubTotalStaffLimit>0</ubTotalStaffLimit>
+		<PRODUCTIONLINE>
+			<!-- cow meat -->
+			<szAdditionalRequirementTips> - Requires: Hicks dead</szAdditionalRequirementTips>
+			<usItemToCreate>1565</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>10632</sGridNo_Creation>
+			<sHourlyCost>2</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- bread -->
+			<usItemToCreate>1567</usItemToCreate>
+			<sMinutesRequired>100</sMinutesRequired>
+			<sGridNo_Creation>11275</sGridNo_Creation>
+			<sHourlyCost>2</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- apple pie -->
+			<usItemToCreate>1568</usItemToCreate>
+			<sMinutesRequired>90</sMinutesRequired>
+			<sGridNo_Creation>10475</sGridNo_Creation>
+			<sHourlyCost>3</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- milk -->
+			<usItemToCreate>1572</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>11432</sGridNo_Creation>
+			<sHourlyCost>2</sHourlyCost>
+		</PRODUCTIONLINE>
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>35</ubIndex>
+		<szFacilityName>Bomb Workshop</szFacilityName>
+		<szFacilityShortName>Workshop</szFacilityShortName>
+		<ubTotalStaffLimit>6</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>The machinery here can manufacture all sorts of replacements parts, which will dramatically increase your efficiency at repair, as long as you're willing to pay for the metals. Of course, working in a stuffy and crowded factory can't possibly be good for you.</szTooltipText>
+			<ubStaffLimit>6</ubStaffLimit>
+			<usPerformance>250</usPerformance>
+			<usKitDegrade>10</usKitDegrade>
+			<sCostPerHour>100</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumMechanical>60</ubMinimumMechanical>
+				<ubMinimumDexterity>70</ubMinimumDexterity>
+			</CONDITIONS>
+			<INJURY>
+				<ubChance>20</ubChance>
+				<bBaseEffect>-10</bBaseEffect>
+				<ubRange>40</ubRange>
+			</INJURY>
+			<HEALTH>
+				<ubChance>40</ubChance>
+				<bBaseEffect>-1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</HEALTH>
+			<MORALE>
+				<ubChance>400</ubChance>
+				<bBaseEffect>-5</bBaseEffect>
+				<ubRange>10</ubRange>
+			</MORALE>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_VEHICLE</ubAssignmentType>
+			<szTooltipText>The machinery here can manufacture all sorts of replacements parts, which will dramatically increase your efficiency at repair, as long as you're willing to pay for the metals. Of course, working in a stuffy and crowded factory can't possibly be good for you.</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>250</usPerformance>
+			<usKitDegrade>30</usKitDegrade>
+			<sCostPerHour>150</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumMechanical>70</ubMinimumMechanical>
+				<ubMinimumDexterity>60</ubMinimumDexterity>
+			</CONDITIONS>
+			<INJURY>
+				<ubChance>20</ubChance>
+				<bBaseEffect>-10</bBaseEffect>
+				<ubRange>40</ubRange>
+			</INJURY>
+			<HEALTH>
+				<ubChance>40</ubChance>
+				<bBaseEffect>-1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</HEALTH>
+			<MORALE>
+				<ubChance>400</ubChance>
+				<bBaseEffect>-5</bBaseEffect>
+				<ubRange>10</ubRange>
+			</MORALE>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ROBOT</ubAssignmentType>
+			<szTooltipText>The machinery here can manufacture all sorts of replacements parts, which will dramatically increase your efficiency at repair, as long as you're willing to pay for the metals. Of course, working in a stuffy and crowded factory can't possibly be good for you.</szTooltipText>
+			<ubStaffLimit>6</ubStaffLimit>
+			<usPerformance>120</usPerformance>
+			<usKitDegrade>50</usKitDegrade>
+			<sCostPerHour>250</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumMechanical>80</ubMinimumMechanical>
+				<ubMinimumDexterity>80</ubMinimumDexterity>
+				<ubMinimumWisdom>80</ubMinimumWisdom>
+			</CONDITIONS>
+			<INJURY>
+				<ubChance>10</ubChance>
+				<bBaseEffect>-10</bBaseEffect>
+				<ubRange>15</ubRange>
+			</INJURY>
+			<HEALTH>
+				<ubChance>40</ubChance>
+				<bBaseEffect>-1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</HEALTH>
+			<MORALE>
+				<ubChance>400</ubChance>
+				<bBaseEffect>-5</bBaseEffect>
+				<ubRange>10</ubRange>
+			</MORALE>
+		</ASSIGNMENT>
+		<PRODUCTIONLINE>
+			<!-- 60mm Mortar Shell from TNT -->
+			<usItemToCreate>140</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>13666</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>137</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>137</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- 60mm Mortar Shell from Mk2 Grenades -->
+			<usItemToCreate>140</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>13666</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- 60mm Illumination Shell from Chemical Break Light -->
+			<usItemToCreate>940</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>13667</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- 60mm Smoke Shell from Smoke Grenade -->
+			<usItemToCreate>941</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>13668</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- 60mm Mustard Gas Shell from Mustard Gas Grenade -->
+			<usItemToCreate>951</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>13665</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
 	</FACILITYTYPE>
 	
 </FACILITYTYPES>
