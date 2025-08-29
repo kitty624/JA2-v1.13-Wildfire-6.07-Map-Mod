@@ -2042,11 +2042,11 @@ function AddPhotoData( sSectorX, sSectorY, bSectorZ, sGridNo, bLevel, ubPhotogra
 			
 		elseif ( (sSectorY == SectorY.MAP_ROW_I) and (sSectorX == 13) ) then
 		
-			if ((room == 54)) then --Needs change
+			if ((room == 54)) then
 			
 				if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE) < PhotoFlag.TAKEN ) then
 				
-					SetScreenMsg(FontColour.FONT_MCOLOR_DKWHITE, "Took a photo of the torture room.") --Needs change
+					SetScreenMsg(FontColour.FONT_MCOLOR_DKWHITE, "Took a photo of the torture room.")
 					
 					SetPhotoState( ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE, PhotoFlag.TAKEN )
 				
@@ -2280,7 +2280,7 @@ function GetPhotoData( aType )
 		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_CAMBRIA_HOSPITAL_MORGUE) == PhotoFlag.TAKEN ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_CAMBRIA_HOSPITAL_MORGUE, "Photos of a filled morgue.")	end
 		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_HQ_CONTROLROOM) == PhotoFlag.TAKEN ) then		SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_HQ_CONTROLROOM, "Visuals detailing the control room of the Alma command center.")	end
 		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_STORAGE_ROCKETS) == PhotoFlag.TAKEN ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_STORAGE_ROCKETS, "Images taken in a storage facility show the army hoarding fuel.")	end
-		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE) == PhotoFlag.TAKEN ) then		SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE, "Images show a secret torture room in a military prison.")	end --Needs change
+		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE) == PhotoFlag.TAKEN ) then		SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE, "Images show a secret torture room in a military prison.")	end
 		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_TIXA_TORTURE) == PhotoFlag.TAKEN ) then			SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_TIXA_TORTURE, "We've documented a mass grave in Tixa.")	end
 		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_TIXA_TORTURE_DOWNSTAIRS) == PhotoFlag.TAKEN ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_TIXA_TORTURE_DOWNSTAIRS, "Pictures seem to indicate systematic torture and killings in Tixa.")	end
 		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_CREATURE_LVL3) == PhotoFlag.TAKEN ) then			SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_CREATURE_LVL3, "We've come across some sort of... unknown animals.")	end
@@ -2362,8 +2362,8 @@ function GetPhotoData( aType )
 		elseif ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_STORAGE_ROCKETS) == PhotoFlag.VERIFIED_RESULT_2 ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_STORAGE_ROCKETS, "An army storage depot in Alma houses huge fuel stockpile. The regime denies the narrative and blames the rebels for staging the photo.")
 		end
 		
-		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE) == PhotoFlag.VERIFIED ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE, "Rebels obtained images of a dedicated torture room in a military prison. This gives further credence to claims of widespread human rights abuses in the country.") --Needs change
-		elseif ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE) == PhotoFlag.VERIFIED_RESULT_2 ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE, "Rebels claim images show a dedicated torture room in a military prison. As the facility is under their control, the culpability of the regime is put into question by outside parties.") --Needs change
+		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE) == PhotoFlag.VERIFIED ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE, "Rebels obtained images of a dedicated torture room in a military prison. This gives further credence to claims of widespread human rights abuses in the country.")
+		elseif ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE) == PhotoFlag.VERIFIED_RESULT_2 ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_ALMA_PRISON_TORTURE, "Rebels claim images show a dedicated torture room in a military prison. As the facility is under their control, the culpability of the regime is put into question by outside parties.")
 		end
 		
 		if ( GetModderLUAFact(ModSpecificActions.PHOTO_FLAGS_TIXA_TORTURE) == PhotoFlag.VERIFIED ) then	SetPhotoFactLaptopData(aType, ModSpecificActions.PHOTO_FLAGS_TIXA_TORTURE, "Dissidents claim that murder is so regular in a notorious prison and bodies are disposed in mass graves. Images taken in secret paint a chilling picture indeed.")
@@ -2691,13 +2691,13 @@ function VerifyPhotoState(aIndex)
 			
 				SetPhotoState( aIndex, PhotoFlag.VERIFIED )				
 				AddIntel( 20 )					
-				SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "Received RIS compensation for documenting torture in a military prison.") --Needs change
+				SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "Received RIS compensation for documenting torture in a military prison.")
 			
 			else
 			
 				SetPhotoState( aIndex, PhotoFlag.VERIFIED_RESULT_2 )				
 				AddIntel( 8 )					
-				SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "Received RIS compensation for documenting torture in a military prison. Amount lowered as sector is no longer government-controlled, culpability for any crimes no longer undeniable.") --Needs change
+				SetScreenMsg(FontColour.FONT_MCOLOR_LTGREEN, "Received RIS compensation for documenting torture in a military prison. Amount lowered as sector is no longer government-controlled, culpability for any crimes no longer undeniable.")
 			
 			end
 			
@@ -3160,3 +3160,4 @@ function HandleNPCMerchantQuote(sSectorX, sSectorY, bSectorZ, ubMerchantID, ubBo
 
 
 end
+
