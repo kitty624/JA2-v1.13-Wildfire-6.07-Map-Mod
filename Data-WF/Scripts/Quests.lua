@@ -230,17 +230,17 @@ function InternalEndQuest( ubQuest, sSectorX, sSectorY, fUpdateHistory )
 				SetProfileStrategicInsertionData(Profiles.MARIA, 11771)
 				SetProfileStrategicInsertionData(Profiles.ANGEL, 10967)
 			elseif sector_silva == 3 then
-				-- B6
-				AddNPCtoSector (Profiles.MARIA,6,2,0) 
-				AddNPCtoSector (Profiles.ANGEL,6,2,0)
-				SetProfileStrategicInsertionData(Profiles.MARIA, 16867)
-				SetProfileStrategicInsertionData(Profiles.ANGEL, 15906)
+				-- E7
+				AddNPCtoSector (Profiles.MARIA,7,5,0) 
+				AddNPCtoSector (Profiles.ANGEL,7,5,0)
+				SetProfileStrategicInsertionData(Profiles.MARIA, 7597)
+				SetProfileStrategicInsertionData(Profiles.ANGEL, 6160)
 			elseif sector_silva == 4 then
-				-- B8
-				AddNPCtoSector (Profiles.MARIA,8,2,0) 
-				AddNPCtoSector (Profiles.ANGEL,8,2,0)
-				SetProfileStrategicInsertionData(Profiles.MARIA, 12079)
-				SetProfileStrategicInsertionData(Profiles.ANGEL, 12247)
+				-- E9
+				AddNPCtoSector (Profiles.MARIA,9,5,0) 
+				AddNPCtoSector (Profiles.ANGEL,9,5,0)
+				SetProfileStrategicInsertionData(Profiles.MARIA, 11236)
+				SetProfileStrategicInsertionData(Profiles.ANGEL, 11861)
 			elseif sector_silva == 5 then
 				-- B12
 				AddNPCtoSector (Profiles.MARIA,12,2,0) 
@@ -272,9 +272,9 @@ function InternalEndQuest( ubQuest, sSectorX, sSectorY, fUpdateHistory )
 			elseif sector_hunter1 == 2 then
 				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_1, SECTOR(5, 2) )
 			elseif sector_hunter1 == 3 then
-				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_1, SECTOR(6, 2) )
+				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_1, SECTOR(7, 5) )
 			elseif sector_hunter1 == 4 then
-				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_1, SECTOR(8, 2) )
+				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_1, SECTOR(9, 5) )
 			elseif sector_hunter1 == 5 then
 				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_1, SECTOR(12, 2) )
 			elseif sector_hunter1 == 6 then
@@ -290,9 +290,9 @@ function InternalEndQuest( ubQuest, sSectorX, sSectorY, fUpdateHistory )
 			elseif sector_hunter2 == 2 then
 				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_2, SECTOR(5, 2) )
 			elseif sector_hunter2 == 3 then
-				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_2, SECTOR(6, 2) )
+				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_2, SECTOR(7, 5) )
 			elseif sector_hunter2 == 4 then
-				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_2, SECTOR(8, 2) )
+				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_2, SECTOR(9, 5) )
 			elseif sector_hunter2 == 5 then
 				SetFact(Facts.FACT_BOUNTYHUNTER_SECTOR_2, SECTOR(12, 2) )
 			elseif sector_hunter2 == 6 then
