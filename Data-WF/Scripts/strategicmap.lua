@@ -651,15 +651,8 @@ function HandleSectorTacticalEntry( sSectorX, sSectorY, bSectorZ, fHasEverBeenPl
 				if ( (CheckFact( Facts.FACT_BOUNTYHUNTER_KILLED_2, 0 ) == true)  ) then
 					hostile = 1
 				end
-				-- B5
-				if 	(sSectorX == 5 and sSectorY == 2) then
-					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			7447,  hostile)
-					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ADMINISTRATOR, 	13000, hostile)
-					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			13032, hostile)
-					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 			13557, hostile)
-					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 			19131, hostile)
 				-- B14
-				elseif (sSectorX == 14 and sSectorY == 2) then
+				if (sSectorX == 14 and sSectorY == 2) then
 					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			7111,  hostile)
 					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ADMINISTRATOR, 	13000, hostile)
 					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			12385, hostile)
@@ -679,7 +672,21 @@ function HandleSectorTacticalEntry( sSectorX, sSectorY, bSectorZ, fHasEverBeenPl
 					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			13031, hostile)
 					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 			13557, hostile)
 					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 			19291, hostile)
-				-- A11, B6, B8, B12
+				-- E7
+				elseif (sSectorX == 7 and sSectorY == 5) then
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			7447,  hostile)
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ADMINISTRATOR, 	12368, hostile)
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			12716, hostile)
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 			13699, hostile)
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 			19291, hostile)
+				-- E9
+				elseif (sSectorX == 9 and sSectorY == 5) then
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			6645,  hostile)
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ADMINISTRATOR, 	13000, hostile)
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			13032, hostile)
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 			14356, hostile)
+					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ELITE, 			19291, hostile)
+				-- A11, B6, B8, B12, E7, E9
 				else
 					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ARMY, 			7447,  hostile)
 					CreateArmedCivilain(CivGroup.BOUNTYHUNTER_CIV_GROUP, SoldierClass.SOLDIER_CLASS_ADMINISTRATOR, 	13000, hostile)
@@ -1250,8 +1257,8 @@ function GetIntelAndQuestMapData( aLevel )
 			-- list all possible sectors where Maria & Angel might hide
 			SetIntelAndQuestMapDataForSector(11, 1, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
 			SetIntelAndQuestMapDataForSector(5, 2, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
-			SetIntelAndQuestMapDataForSector(6, 2, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
-			SetIntelAndQuestMapDataForSector(8, 2, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
+			SetIntelAndQuestMapDataForSector(7, 5, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
+			SetIntelAndQuestMapDataForSector(9, 5, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
 			SetIntelAndQuestMapDataForSector(12, 2, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
 			SetIntelAndQuestMapDataForSector(14, 2, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
 			SetIntelAndQuestMapDataForSector(3, 3, -1, MapSymbols.QUESTIONMARK_BLUE, "Kill or protect Angel & Maria", "")
